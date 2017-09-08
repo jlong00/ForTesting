@@ -8212,7 +8212,7 @@
                 "uri": "[variables('ADandJumpTemplate')]",
                 "contentVersion": "1.0.0.0"
               },
-              "variablesLink": {
+              "parametersLink": {
                 "uri": "[variables('ADandJumpParams)]",
                 "contentVersion": "1.0.0.0"
               }
