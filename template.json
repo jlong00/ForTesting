@@ -8186,7 +8186,7 @@
                 "contentVersion": "1.0.0.0"
               },
               "parametersLink": {
-                "uri": "[variables('ADandJumpParams)]",
+                "uri": "[variables('ADandJumpParams')]",
                 "contentVersion": "1.0.0.0"
               }
             }
