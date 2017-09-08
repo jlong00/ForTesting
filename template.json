@@ -8182,11 +8182,11 @@
             "properties": {
               "mode": "Incremental",
               "templateLink": {
-                "uri": "[parameters('ADandJumpTemplate')]",
+                "uri": "[variables('ADandJumpTemplate')]",
                 "contentVersion": "1.0.0.0"
               },
               "parametersLink": {
-                "uri": "[parameters('ADandJumpParams)]",
+                "uri": "[variables('ADandJumpParams)]",
                 "contentVersion": "1.0.0.0"
               }
             }
