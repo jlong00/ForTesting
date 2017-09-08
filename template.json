@@ -2328,9 +2328,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1nsg253_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_AppServer1_name'))]"
-            ]
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1nsg253_name'))]"
+                ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/atg-accounting292'.",
@@ -2370,8 +2369,8 @@
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg212_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
+                
             ]
         },
         {
@@ -2416,8 +2415,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg776_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ATG_Accounting_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg776_name'))]"
+                
             ]
         },
         {
@@ -2626,8 +2625,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg675_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ContentDB_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg675_name'))]"
+                
             ]
         },
         {
@@ -2714,8 +2713,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentTools_nsg_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ContentTools_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentTools_nsg_name'))]"
+                
             ]
         },
         {
@@ -2801,8 +2800,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg981_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB16_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg981_name'))]"
+                
             ]
         },
         {
@@ -2888,8 +2887,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg298_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB4_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg298_name'))]"
+                
             ]
         },
         {
@@ -3099,8 +3098,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg123_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB5_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg123_name'))]"
+                
             ]
         },
         {
@@ -3269,8 +3268,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg740_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB62_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg740_name'))]"
+                
             ]
         },
         {
@@ -3401,8 +3400,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg640_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB6_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg640_name'))]"
+                
             ]
         },
         {
@@ -3447,8 +3446,8 @@
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Job1_nsg_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_Job1_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Job1_nsg_name'))]"
+                
             ]
         },
         {

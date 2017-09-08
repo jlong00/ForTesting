@@ -178,8 +178,8 @@
     "dependsOn": [
         "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_JumpServer1_ip_name'))]",
         "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]",
-        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_JumpServer1_name'))]"
+        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]"
+        
     ]
 },
 {
@@ -659,8 +659,8 @@
     },
     "dependsOn": [
         "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
-        "[resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name'))]",
-        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
+        "[resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name'))]"
+        
     ]
 },
 {
