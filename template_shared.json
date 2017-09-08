@@ -1,0 +1,675 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "variables": {
+    "virtualMachines_JumpServer1_name": {
+        "defaultValue": "JumpServer1",
+        "type": "String"
+    },
+    "networkInterfaces_jumpserver1554_name": {
+        "defaultValue": "jumpserver1554",
+        "type": "String"
+    },
+    "publicIPAddresses_JumpServer1_ip_name": {
+        "defaultValue": "JumpServer1-ip",
+        "type": "String"
+    },
+    "networkSecurityGroups_JumpServer1_nsg_name": {
+        "defaultValue": "JumpServer1-nsg",
+        "type": "String"
+    },
+    "disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name": {
+        "defaultValue": "JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714",
+        "type": "String"
+    },
+    "virtualMachines_adVM_name": {
+        "defaultValue": "adVM",
+        "type": "String"
+    },
+    "networkInterfaces_adNic_name": {
+        "defaultValue": "adNic",
+        "type": "String"
+    },
+    "loadBalancers_adLoadBalancer_name": {
+        "defaultValue": "adLoadBalancer",
+        "type": "String"
+    },
+    "publicIPAddresses_adPublicIP_name": {
+        "defaultValue": "adPublicIP",
+        "type": "String"
+    },
+    "availabilitySets_adAvailabiltySet_name": {
+        "defaultValue": "adAvailabiltySet",
+        "type": "String"
+    },
+    "extensions_CreateADForest_name": {
+        "defaultValue": "CreateADForest",
+        "type": "String"
+}
+    },
+"resources": [
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714'.",
+    "type": "Microsoft.Compute/disks",
+    "name": "[parameters('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name')]",
+    "apiVersion": "2016-04-30-preview",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "accountType": "Premium_LRS",
+        "osType": "Windows",
+        "creationData": {
+            "createOption": "FromImage",
+            "imageReference": {
+                "id": "/Subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/Providers/Microsoft.Compute/Locations/westus/Publishers/MicrosoftWindowsServer/ArtifactTypes/VMImage/Offers/WindowsServer/Skus/2016-Datacenter/Versions/latest"
+            }
+        },
+        "diskSizeGB": 127
+    },
+    "dependsOn": []
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/JumpServer1'.",
+    "type": "Microsoft.Compute/virtualMachines",
+    "name": "[parameters('virtualMachines_JumpServer1_name')]",
+    "apiVersion": "2016-04-30-preview",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "hardwareProfile": {
+            "vmSize": "Standard_DS3_v2"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "MicrosoftWindowsServer",
+                "offer": "WindowsServer",
+                "sku": "2016-Datacenter",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Windows",
+                "name": "[concat(parameters('virtualMachines_JumpServer1_name'),'_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714')]",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name'))]"
+                },
+                "diskSizeGB": 127
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "[parameters('virtualMachines_JumpServer1_name')]",
+            "adminUsername": "adminMaster",
+            "windowsConfiguration": {
+                "provisionVMAgent": true,
+                "enableAutomaticUpdates": true
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_jumpserver1554_name'))]"
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true,
+                "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+            }
+        }
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Compute/disks', parameters('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name'))]",
+        "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_jumpserver1554_name'))]",
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/jumpserver1554'.",
+    "type": "Microsoft.Network/networkInterfaces",
+    "name": "[parameters('networkInterfaces_jumpserver1554_name')]",
+    "apiVersion": "2017-06-01",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "2a34bb1b-5fae-4685-aa29-4a358203864f",
+        "ipConfigurations": [
+            {
+                "name": "ipconfig1",
+                "etag": "W/\"a0a2a2e2-8767-4b72-ba21-e0b7223a32a0\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "privateIPAddress": "10.0.0.5",
+                    "privateIPAllocationMethod": "Dynamic",
+                    "publicIPAddress": {
+                        "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_JumpServer1_ip_name'))]"
+                    },
+                    "subnet": {
+                        "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
+                    },
+                    "primary": true,
+                    "privateIPAddressVersion": "IPv4"
+                }
+            }
+        ],
+        "dnsSettings": {
+            "dnsServers": [],
+            "appliedDnsServers": [],
+            "internalDomainNameSuffix": "bh13xguxwhxujmq5z1hqmxbrbf.dx.internal.cloudapp.net"
+        },
+        "macAddress": "00-0D-3A-32-8B-AB",
+        "enableAcceleratedNetworking": false,
+        "enableIPForwarding": false,
+        "networkSecurityGroup": {
+            "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]"
+        },
+        "primary": true,
+        "virtualMachine": {
+            "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_JumpServer1_name'))]"
+        }
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_JumpServer1_ip_name'))]",
+        "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]",
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_JumpServer1_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/JumpServer1-nsg'.",
+    "type": "Microsoft.Network/networkSecurityGroups",
+    "name": "[parameters('networkSecurityGroups_JumpServer1_nsg_name')]",
+    "apiVersion": "2017-06-01",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "259d798b-5654-4a79-ba2d-0e23c59cc7e8",
+        "securityRules": [
+            {
+                "name": "default-allow-rdp",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "protocol": "TCP",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "3389",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Allow",
+                    "priority": 1000,
+                    "direction": "Inbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            },
+            {
+                "name": "ps",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "protocol": "TCP",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "5986",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Allow",
+                    "priority": 1010,
+                    "direction": "Inbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            }
+        ],
+        "defaultSecurityRules": [
+            {
+                "name": "AllowVnetInBound",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "description": "Allow inbound traffic from all VMs in VNET",
+                    "protocol": "*",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "*",
+                    "sourceAddressPrefix": "VirtualNetwork",
+                    "destinationAddressPrefix": "VirtualNetwork",
+                    "access": "Allow",
+                    "priority": 65000,
+                    "direction": "Inbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            },
+            {
+                "name": "AllowAzureLoadBalancerInBound",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "description": "Allow inbound traffic from azure load balancer",
+                    "protocol": "*",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "*",
+                    "sourceAddressPrefix": "AzureLoadBalancer",
+                    "destinationAddressPrefix": "*",
+                    "access": "Allow",
+                    "priority": 65001,
+                    "direction": "Inbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            },
+            {
+                "name": "DenyAllInBound",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "description": "Deny all inbound traffic",
+                    "protocol": "*",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "*",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Deny",
+                    "priority": 65500,
+                    "direction": "Inbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            },
+            {
+                "name": "AllowVnetOutBound",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "description": "Allow outbound traffic from all VMs to all VMs in VNET",
+                    "protocol": "*",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "*",
+                    "sourceAddressPrefix": "VirtualNetwork",
+                    "destinationAddressPrefix": "VirtualNetwork",
+                    "access": "Allow",
+                    "priority": 65000,
+                    "direction": "Outbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            },
+            {
+                "name": "AllowInternetOutBound",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "description": "Allow outbound traffic from all VMs to Internet",
+                    "protocol": "*",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "*",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "Internet",
+                    "access": "Allow",
+                    "priority": 65001,
+                    "direction": "Outbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            },
+            {
+                "name": "DenyAllOutBound",
+                "etag": "W/\"be2078dc-24f7-4d97-be1a-7f0261d22817\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "description": "Deny all outbound traffic",
+                    "protocol": "*",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "*",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Deny",
+                    "priority": 65500,
+                    "direction": "Outbound",
+                    "sourceAddressPrefixes": [],
+                    "destinationAddressPrefixes": []
+                }
+            }
+        ]
+    },
+    "dependsOn": []
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/publicIPAddresses/JumpServer1-ip'.",
+    "type": "Microsoft.Network/publicIPAddresses",
+    "name": "[parameters('publicIPAddresses_JumpServer1_ip_name')]",
+    "apiVersion": "2017-06-01",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "68a2e2a8-0642-4318-8406-8249bec0e782",
+        "ipAddress": "13.64.105.23",
+        "publicIPAddressVersion": "IPv4",
+        "publicIPAllocationMethod": "Dynamic",
+        "idleTimeoutInMinutes": 4,
+        "dnsSettings": {
+            "domainNameLabel": "atg-lower-jump",
+            "fqdn": "atg-lower-jump.westus.cloudapp.azure.com"
+        }
+    },
+    "dependsOn": []
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/JumpServer1/extensions/IaaSAntimalware'.",
+    "type": "Microsoft.Compute/virtualMachines/extensions",
+    "name": "[concat(parameters('virtualMachines_JumpServer1_name'), '/', parameters('extensions_IaaSAntimalware_name_2'))]",
+    "apiVersion": "2016-04-30-preview",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "publisher": "Microsoft.Azure.Security",
+        "type": "[parameters('extensions_IaaSAntimalware_name_2')]",
+        "typeHandlerVersion": "1.3",
+        "autoUpgradeMinorVersion": true,
+        "settings": {
+            "AntimalwareEnabled": true,
+            "RealtimeProtectionEnabled": "true",
+            "ScheduledScanSettings": {
+                "isEnabled": "false",
+                "day": "7",
+                "time": "120",
+                "scanType": "Quick"
+            },
+            "Exclusions": {
+                "Extensions": "",
+                "Paths": "",
+                "Processes": ""
+            }
+        }
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_JumpServer1_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/JumpServer1-nsg/securityRules/default-allow-rdp'.",
+    "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+    "name": "[concat(parameters('networkSecurityGroups_JumpServer1_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_21'))]",
+    "apiVersion": "2017-06-01",
+    "scale": null,
+    "properties": {
+        "provisioningState": "Succeeded",
+        "protocol": "TCP",
+        "sourcePortRange": "*",
+        "destinationPortRange": "3389",
+        "sourceAddressPrefix": "*",
+        "destinationAddressPrefix": "*",
+        "access": "Allow",
+        "priority": 1000,
+        "direction": "Inbound",
+        "sourceAddressPrefixes": [],
+        "destinationAddressPrefixes": []
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/JumpServer1-nsg/securityRules/ps'.",
+    "type": "Microsoft.Network/networkSecurityGroups/securityRules",
+    "name": "[concat(parameters('networkSecurityGroups_JumpServer1_nsg_name'), '/', parameters('securityRules_ps_name'))]",
+    "apiVersion": "2017-06-01",
+    "scale": null,
+    "properties": {
+        "provisioningState": "Succeeded",
+        "protocol": "TCP",
+        "sourcePortRange": "*",
+        "destinationPortRange": "5986",
+        "sourceAddressPrefix": "*",
+        "destinationAddressPrefix": "*",
+        "access": "Allow",
+        "priority": 1010,
+        "direction": "Inbound",
+        "sourceAddressPrefixes": [],
+        "destinationAddressPrefixes": []
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/availabilitySets/adAvailabiltySet'.",
+    "type": "Microsoft.Compute/availabilitySets",
+    "sku": {
+        "name": "Classic"
+    },
+    "name": "[parameters('availabilitySets_adAvailabiltySet_name')]",
+    "apiVersion": "2016-04-30-preview",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "platformUpdateDomainCount": 5,
+        "platformFaultDomainCount": 3,
+        "virtualMachines": [
+            {
+                "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
+            }
+        ]
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/adVM'.",
+    "type": "Microsoft.Compute/virtualMachines",
+    "name": "[parameters('virtualMachines_adVM_name')]",
+    "apiVersion": "2016-04-30-preview",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "availabilitySet": {
+            "id": "[resourceId('Microsoft.Compute/availabilitySets', parameters('availabilitySets_adAvailabiltySet_name'))]"
+        },
+        "hardwareProfile": {
+            "vmSize": "Standard_D2_v2"
+        },
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "MicrosoftWindowsServer",
+                "offer": "WindowsServer",
+                "sku": "2016-Datacenter",
+                "version": "latest"
+            },
+            "osDisk": {
+                "osType": "Windows",
+                "name": "osdisk",
+                "createOption": "FromImage",
+                "vhd": {
+                    "uri": "[concat('https', '://', parameters('storageAccounts_2vmzo4mqlfyhkadsa_name'), '.blob.core.windows.net', concat('/vhds/', parameters('virtualMachines_adVM_name'),'-os-disk.vhd'))]"
+                },
+                "caching": "ReadWrite"
+            },
+            "dataDisks": [
+                {
+                    "lun": 0,
+                    "name": "[concat(parameters('virtualMachines_adVM_name'),'-data-disk')]",
+                    "createOption": "Empty",
+                    "vhd": {
+                        "uri": "[concat('https', '://', parameters('storageAccounts_2vmzo4mqlfyhkadsa_name'), '.blob.core.windows.net', concat('/vhds/', parameters('virtualMachines_adVM_name'),'-data-disk.vhd'))]"
+                    },
+                    "caching": "None",
+                    "diskSizeGB": 1000
+                }
+            ]
+        },
+        "osProfile": {
+            "computerName": "[parameters('virtualMachines_adVM_name')]",
+            "adminUsername": "adminMaster",
+            "windowsConfiguration": {
+                "provisionVMAgent": true,
+                "enableAutomaticUpdates": true
+            },
+            "secrets": []
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_adNic_name'))]"
+                }
+            ]
+        }
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Compute/availabilitySets', parameters('availabilitySets_adAvailabiltySet_name'))]",
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_2vmzo4mqlfyhkadsa_name'))]",
+        "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_adNic_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/loadBalancers/adLoadBalancer'.",
+    "type": "Microsoft.Network/loadBalancers",
+    "name": "[parameters('loadBalancers_adLoadBalancer_name')]",
+    "apiVersion": "2017-06-01",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "26564334-92ee-4d11-9ba2-d050a00fa8b6",
+        "frontendIPConfigurations": [
+            {
+                "name": "LBFE",
+                "etag": "W/\"7c65f39b-9a68-493a-a389-366e7a9fa19c\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "privateIPAllocationMethod": "Dynamic",
+                    "publicIPAddress": {
+                        "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_adPublicIP_name'))]"
+                    }
+                }
+            }
+        ],
+        "backendAddressPools": [
+            {
+                "name": "LBBE",
+                "etag": "W/\"7c65f39b-9a68-493a-a389-366e7a9fa19c\"",
+                "properties": {
+                    "provisioningState": "Succeeded"
+                }
+            }
+        ],
+        "loadBalancingRules": [],
+        "probes": [],
+        "inboundNatRules": [
+            {
+                "name": "adRDP",
+                "etag": "W/\"7c65f39b-9a68-493a-a389-366e7a9fa19c\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "frontendIPConfiguration": {
+                        "id": "[parameters('loadBalancers_adLoadBalancer_id')]"
+                    },
+                    "frontendPort": 3389,
+                    "backendPort": 3389,
+                    "enableFloatingIP": false,
+                    "idleTimeoutInMinutes": 4,
+                    "protocol": "Tcp"
+                }
+            }
+        ],
+        "outboundNatRules": [],
+        "inboundNatPools": []
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_adPublicIP_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/adNic'.",
+    "type": "Microsoft.Network/networkInterfaces",
+    "name": "[parameters('networkInterfaces_adNic_name')]",
+    "apiVersion": "2017-06-01",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "ffcf541e-bf07-482e-be55-fe1d43c2dcfd",
+        "ipConfigurations": [
+            {
+                "name": "ipconfig1",
+                "etag": "W/\"1082dba5-b0e2-46af-86f6-b9f121a41ee5\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "privateIPAddress": "10.0.0.4",
+                    "privateIPAllocationMethod": "Static",
+                    "subnet": {
+                        "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
+                    },
+                    "primary": true,
+                    "privateIPAddressVersion": "IPv4",
+                    "loadBalancerBackendAddressPools": [
+                        {
+                            "id": "[concat(resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name')), '/backendAddressPools/LBBE')]"
+                        }
+                    ],
+                    "loadBalancerInboundNatRules": [
+                        {
+                            "id": "[concat(resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name')), '/inboundNatRules/adRDP')]"
+                        }
+                    ]
+                }
+            }
+        ],
+        "dnsSettings": {
+            "dnsServers": [],
+            "appliedDnsServers": [],
+            "internalDomainNameSuffix": "bh13xguxwhxujmq5z1hqmxbrbf.dx.internal.cloudapp.net"
+        },
+        "macAddress": "00-0D-3A-35-FF-CF",
+        "enableAcceleratedNetworking": false,
+        "enableIPForwarding": false,
+        "primary": true,
+        "virtualMachine": {
+            "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
+        }
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+        "[resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name'))]",
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
+    ]
+},
+{
+    "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/adVM/extensions/CreateADForest'.",
+    "type": "Microsoft.Compute/virtualMachines/extensions",
+    "name": "[concat(parameters('virtualMachines_adVM_name'), '/', parameters('extensions_CreateADForest_name'))]",
+    "apiVersion": "2016-04-30-preview",
+    "location": "westus",
+    "scale": null,
+    "properties": {
+        "publisher": "Microsoft.Powershell",
+        "type": "DSC",
+        "typeHandlerVersion": "2.19",
+        "autoUpgradeMinorVersion": true,
+        "settings": {
+            "ModulesUrl": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/active-directory-new-domain/DSC/CreateADPDC.zip",
+            "ConfigurationFunction": "CreateADPDC.ps1\\CreateADPDC",
+            "Properties": {
+                "DomainName": "AtgLower.com",
+                "AdminCreds": {
+                    "UserName": "adminMaster",
+                    "Password": "PrivateSettingsRef:AdminPassword"
+                }
+            }
+        },
+        "protectedSettings": {}
+    },
+    "dependsOn": [
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
+      ]
+      }
+      ]      
+}
+     
