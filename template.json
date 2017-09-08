@@ -5,11 +5,11 @@
         "AdminPassword": { "type": "securestring" }
         },
     "variables": {
-        "AD&JumpTemplate": {
+        "ADandJumpTemplate": {
             "defaultValue": "https://github.com/jlong00/ForTesting/blob/master/template_shared.json",
             "type": "String"
         },
-        "AD&JumpParams": {
+        "ADandJumpParams": {
             "defaultValue": "https://github.com/jlong00/ForTesting/blob/master/params_shared.json",
             "type": "String"
         },
@@ -8204,16 +8204,16 @@
         },
         {
             "apiVersion": "2015-01-01",
-            "name": "AD&Jump",
+            "name": "ADandJump",
             "type": "Microsoft.Resources/deployments",
             "properties": {
               "mode": "Incremental",
               "templateLink": {
-                "uri": "[variables('AD&JumpTemplate')]",
+                "uri": "[variables('ADandJumpTemplate')]",
                 "contentVersion": "1.0.0.0"
               },
               "variablesLink": {
-                "uri": "[variables('AD&JumpParams)]",
+                "uri": "[variables('ADandJumpParams)]",
                 "contentVersion": "1.0.0.0"
               }
             }
