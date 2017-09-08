@@ -7409,27 +7409,7 @@
             },
             "dependsOn": []
         },
-        {
-            "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/publicIPAddresses/adPublicIP'.",
-            "type": "Microsoft.Network/publicIPAddresses",
-            "name": "[parameters('publicIPAddresses_adPublicIP_name')]",
-            "apiVersion": "2017-06-01",
-            "location": "westus",
-            "scale": null,
-            "properties": {
-                "provisioningState": "Succeeded",
-                "resourceGuid": "a33236b5-54cf-4e60-bde2-fa86afda3835",
-                "ipAddress": "13.88.13.42",
-                "publicIPAddressVersion": "IPv4",
-                "publicIPAllocationMethod": "Dynamic",
-                "idleTimeoutInMinutes": 4,
-                "dnsSettings": {
-                    "domainNameLabel": "atglower",
-                    "fqdn": "atglower.westus.cloudapp.azure.com"
-                }
-            },
-            "dependsOn": []
-        },
+       
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/virtualNetworks/adVNET'.",
             "type": "Microsoft.Network/virtualNetworks",
