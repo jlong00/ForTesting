@@ -6,11 +6,11 @@
         },
     "variables": {
         "AD&JumpTemplate": {
-            "defaultValue": "http://update_me_with_the_linked_template_url",
+            "defaultValue": "https://github.com/jlong00/ForTesting/blob/master/template_shared.json",
             "type": "String"
         },
         "AD&JumpParams": {
-            "defaultValue": "http://update_me_with_the_linked_params_url",
+            "defaultValue": "https://github.com/jlong00/ForTesting/blob/master/params_shared.json",
             "type": "String"
         },
         "virtualMachines_DB4_name": {
