@@ -1,53 +1,54 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {},
-    "variables": {
-    "virtualMachines_JumpServer1_name": {
-        "defaultValue": "JumpServer1",
-        "type": "String"
+    "parameters": {
+        "virtualMachines_JumpServer1_name": {
+            "defaultValue": "JumpServer1",
+            "type": "String"
+        },
+        "networkInterfaces_jumpserver1554_name": {
+            "defaultValue": "jumpserver1554",
+            "type": "String"
+        },
+        "publicIPAddresses_JumpServer1_ip_name": {
+            "defaultValue": "JumpServer1-ip",
+            "type": "String"
+        },
+        "networkSecurityGroups_JumpServer1_nsg_name": {
+            "defaultValue": "JumpServer1-nsg",
+            "type": "String"
+        },
+        "disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name": {
+            "defaultValue": "JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714",
+            "type": "String"
+        },
+        "virtualMachines_adVM_name": {
+            "defaultValue": "adVM",
+            "type": "String"
+        },
+        "networkInterfaces_adNic_name": {
+            "defaultValue": "adNic",
+            "type": "String"
+        },
+        "loadBalancers_adLoadBalancer_name": {
+            "defaultValue": "adLoadBalancer",
+            "type": "String"
+        },
+        "publicIPAddresses_adPublicIP_name": {
+            "defaultValue": "adPublicIP",
+            "type": "String"
+        },
+        "availabilitySets_adAvailabiltySet_name": {
+            "defaultValue": "adAvailabiltySet",
+            "type": "String"
+        },
+        "extensions_CreateADForest_name": {
+            "defaultValue": "CreateADForest",
+            "type": "String"
+        }
     },
-    "networkInterfaces_jumpserver1554_name": {
-        "defaultValue": "jumpserver1554",
-        "type": "String"
-    },
-    "publicIPAddresses_JumpServer1_ip_name": {
-        "defaultValue": "JumpServer1-ip",
-        "type": "String"
-    },
-    "networkSecurityGroups_JumpServer1_nsg_name": {
-        "defaultValue": "JumpServer1-nsg",
-        "type": "String"
-    },
-    "disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name": {
-        "defaultValue": "JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714",
-        "type": "String"
-    },
-    "virtualMachines_adVM_name": {
-        "defaultValue": "adVM",
-        "type": "String"
-    },
-    "networkInterfaces_adNic_name": {
-        "defaultValue": "adNic",
-        "type": "String"
-    },
-    "loadBalancers_adLoadBalancer_name": {
-        "defaultValue": "adLoadBalancer",
-        "type": "String"
-    },
-    "publicIPAddresses_adPublicIP_name": {
-        "defaultValue": "adPublicIP",
-        "type": "String"
-    },
-    "availabilitySets_adAvailabiltySet_name": {
-        "defaultValue": "adAvailabiltySet",
-        "type": "String"
-    },
-    "extensions_CreateADForest_name": {
-        "defaultValue": "CreateADForest",
-        "type": "String"
-}
-    },
+    "variables": {},
+    
 "resources": [
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714'.",

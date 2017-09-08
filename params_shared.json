@@ -1,6 +1,50 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {   
+    "parameters": {
+        "virtualMachines_JumpServer1_name": {
+            "value": "JumpServer1"
+            
+        },
+        "networkInterfaces_jumpserver1554_name": {
+            "value": "jumpserver1554"
+            
+        },
+        "publicIPAddresses_JumpServer1_ip_name": {
+            "value": "JumpServer1-ip"
+            
+        },
+        "networkSecurityGroups_JumpServer1_nsg_name": {
+            "value": "JumpServer1-nsg"
+            
+        },
+        "disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name": {
+            "value": "JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714"
+            
+        },
+        "virtualMachines_adVM_name": {
+            "value": "adVM"
+            
+        },
+        "networkInterfaces_adNic_name": {
+            "value": "adNic"
+            
+        },
+        "loadBalancers_adLoadBalancer_name": {
+            "value": "adLoadBalancer"
+            
+        },
+        "publicIPAddresses_adPublicIP_name": {
+            "value": "adPublicIP"
+            
+        },
+        "availabilitySets_adAvailabiltySet_name": {
+            "value": "adAvailabiltySet"
+            
+        },
+        "extensions_CreateADForest_name": {
+            "value": "CreateADForest"
+               
+        }
     }
 }

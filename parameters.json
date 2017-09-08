@@ -4,6 +4,627 @@
     "parameters": {
         "adminPassword": {
             "value": "Testing1234!"
-        }
+        },
+        "virtualMachines_DB4_name": {
+            "value": "DB4"
+        
+        },
+        "virtualMachines_DB5_name": {
+            "value": "DB5"
+            
+        },
+        "virtualMachines_DB6_name": {
+            "value": "DB6"
+            
+        },
+        "virtualMachines_DB16_name": {
+            "value": "DB16"
+            
+        },
+        "virtualMachines_DB62_name": {
+            "value": "DB62"
+            
+        },
+        "virtualMachines_Job1_name": {
+            "value": "Job1"
+            
+        },
+        "virtualNetworks_adVNET_name": {
+            "value": "adVNET"
+            
+        },
+        "networkInterfaces_db161_name": {
+            "value": "db161"
+            
+        },
+        "networkInterfaces_db439_name": {
+            "value": "db439"
+            
+        },
+        "networkInterfaces_db4487_name": {
+            "value": "db4487"
+            
+        },
+        "networkInterfaces_db4981_name": {
+            "value": "db4981"
+            
+        },
+        "networkInterfaces_db5277_name": {
+            "value": "db5277"
+            
+        },
+        "networkInterfaces_db5325_name": {
+            "value": "db5325"
+            
+        },
+        "networkInterfaces_db5952_name": {
+            "value": "db5952"
+            
+        },
+        "networkInterfaces_db6215_name": {
+            "value": "db6215"
+            
+        },
+        "networkInterfaces_db6387_name": {
+            "value": "db6387"
+            
+        },
+        "networkInterfaces_db6792_name": {
+            "value": "db6792"
+            
+        },
+        "networkInterfaces_db6915_name": {
+            "value": "db6915"
+            
+        },
+        "virtualMachines_ContentDB_name": {
+            "value": "ContentDB"
+            
+        },
+        "networkInterfaces_db16445_name": {
+            "value": "db16445"
+            
+        },
+        "networkInterfaces_db16723_name": {
+            "value": "db16723"
+            
+        },
+        "networkInterfaces_db62746_name": {
+            "value": "db62746"
+            
+        },
+        "networkInterfaces_db62795_name": {
+            "value": "db62795"
+            
+        },
+        "networkInterfaces_db62979_name": {
+            "value": "db62979"
+            
+        },
+        "networkInterfaces_job1733_name": {
+            "value": "job1733"
+            
+        },
+        "virtualMachines_AppServer1_name": {
+            "value": "AppServer1"
+            
+        },
+        "virtualMachines_ContentTools_name": {
+            "value": "ContentTools"
+            
+        },
+        "networkSecurityGroups_DB4_nsg_name": {
+            "value": "DB4-nsg"
+            
+        },
+        "networkSecurityGroups_DB5_nsg_name": {
+            "value": "DB5-nsg"
+            
+        },
+        "networkSecurityGroups_DB6_nsg_name": {
+            "value": "DB6-nsg"
+            
+        },
+        "virtualMachines_ATG_Accounting_name": {
+            "value": "ATG-Accounting"
+            
+        },
+        "networkInterfaces_contentdb374_name": {
+            "value": "contentdb374"
+            
+        },
+        "networkInterfaces_contentdb818_name": {
+            "value": "contentdb818"
+            
+        },
+        "networkInterfaces_contentdb831_name": {
+            "value": "contentdb831"
+            
+        },
+        "networkInterfaces_contentdb914_name": {
+            "value": "contentdb914"
+            
+        },
+        "networkSecurityGroups_DB16_nsg_name": {
+            "value": "DB16-nsg"
+            
+        },
+        "networkSecurityGroups_DB62_nsg_name": {
+            "value": "DB62-nsg"
+            
+        },
+        "networkSecurityGroups_Job1_nsg_name": {
+            "value": "Job1-nsg"
+            
+        },
+        "networkInterfaces_appserver1154_name": {
+            "value": "appserver1154"
+            
+        },
+        "networkInterfaces_appserver1389_name": {
+            "value": "appserver1389"
+            
+        },
+        "networkSecurityGroups_DB4nsg115_name": {
+            "value": "DB4nsg115"
+            
+        },
+        "networkSecurityGroups_DB4nsg298_name": {
+            "value": "DB4nsg298"
+            
+        },
+        "networkSecurityGroups_DB5nsg123_name": {
+            "value": "DB5nsg123"
+            
+        },
+        "networkSecurityGroups_DB5nsg517_name": {
+            "value": "DB5nsg517"
+            
+        },
+        "networkSecurityGroups_DB6nsg400_name": {
+            "value": "DB6nsg400"
+            
+        },
+        "networkSecurityGroups_DB6nsg460_name": {
+            "value": "DB6nsg460"
+            
+        },
+        "networkSecurityGroups_DB6nsg640_name": {
+            "value": "DB6nsg640"
+            
+        },
+        "networkSecurityGroups_DB16nsg318_name": {
+            "value": "DB16nsg318"
+            
+        },
+        "networkSecurityGroups_DB16nsg981_name": {
+            "value": "DB16nsg981"
+            
+        },
+        "networkSecurityGroups_DB62nsg662_name": {
+            "value": "DB62nsg662"
+            
+        },
+        "networkSecurityGroups_DB62nsg740_name": {
+            "value": "DB62nsg740"
+            
+        },
+        "networkInterfaces_contenttools298_name": {
+            "value": "contenttools298"
+            
+        },
+        "storageAccounts_2vmzo4mqlfyhkadsa_name": {
+            "value": "2vmzo4mqlfyhkadsa"
+            
+        },
+        "storageAccounts_atglowerrgdiag337_name": {
+            "value": "atglowerrgdiag337"
+            
+        },
+        "networkInterfaces_atg_accounting292_name": {
+            "value": "atg-accounting292"
+            
+        },
+        "networkInterfaces_atg_accounting685_name": {
+            "value": "atg-accounting685"
+            
+        },
+        "networkInterfaces_atg_accounting822_name": {
+            "value": "atg-accounting822"
+            
+        },
+        "networkInterfaces_atg_accounting954_name": {
+            "value": "atg-accounting954"
+            
+        },
+        "networkSecurityGroups_ContentDB_nsg_name": {
+            "value": "ContentDB-nsg"
+            
+        },
+        "networkSecurityGroups_AppServer1_nsg_name": {
+            "value": "AppServer1-nsg"
+            
+        },
+        "networkSecurityGroups_ContentDBnsg250_name": {
+            "value": "ContentDBnsg250"
+            
+        },
+        "networkSecurityGroups_ContentDBnsg675_name": {
+            "value": "ContentDBnsg675"
+            
+        },
+        "networkSecurityGroups_ContentDBnsg743_name": {
+            "value": "ContentDBnsg743"
+            
+        },
+        "networkSecurityGroups_AppServer1nsg253_name": {
+            "value": "AppServer1nsg253"
+            
+        },
+        "networkSecurityGroups_ContentTools_nsg_name": {
+            "value": "ContentTools-nsg"
+            
+        },
+        "subnets_adSubnet_name": {
+            "value": "adSubnet"
+            
+        },
+        "networkSecurityGroups_ATG_Accounting_nsg_name": {
+            "value": "ATG-Accounting-nsg"
+            
+        },
+        "networkSecurityGroups_ATGAccountingnsg212_name": {
+            "value": "ATGAccountingnsg212"
+            
+        },
+        "networkSecurityGroups_ATGAccountingnsg702_name": {
+            "value": "ATGAccountingnsg702"
+            
+        },
+        "networkSecurityGroups_ATGAccountingnsg776_name": {
+            "value": "ATGAccountingnsg776"
+            
+        },
+        "extensions_IaaSAntimalware_name": {
+            "value": "IaaSAntimalware"
+            
+        },
+        "disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name": {
+            "value": "DB4_disk2_42f6e5eae4124e50831d33fe297919bd"
+            
+        },
+        "disks_DB4_disk2_756f09035ecf4352b9dfcc7dbfbe9dd6_name": {
+            "value": "DB4_disk2_756f09035ecf4352b9dfcc7dbfbe9dd6"
+            
+        },
+        "disks_DB4_disk2_a64311d5331d413e87df9582d6824467_name": {
+            "value": "DB4_disk2_a64311d5331d413e87df9582d6824467"
+            
+        },
+        "disks_DB5_disk2_167ec29cfd644d6d923beda9242aad90_name": {
+            "value": "DB5_disk2_167ec29cfd644d6d923beda9242aad90"
+            
+        },
+        "disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name": {
+            "value": "DB5_disk2_4764220e8f614c0dab06b640378dc735"
+            
+        },
+        "disks_DB5_disk2_b62848a043124d47abf52b55b7938ab9_name": {
+            "value": "DB5_disk2_b62848a043124d47abf52b55b7938ab9"
+            
+        },
+        "disks_DB6_disk2_034cdbc74baf433f9bb22adab978474b_name": {
+            "value": "DB6_disk2_034cdbc74baf433f9bb22adab978474b"
+            
+        },
+        "disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name": {
+            "value": "DB6_disk2_9567291abd934894a61c89b7c015a280"
+            
+        },
+        "disks_DB6_disk2_ae83f968a96d47568452409d3138ddc5_name": {
+            "value": "DB6_disk2_ae83f968a96d47568452409d3138ddc5"
+            
+        },
+        "disks_DB6_disk2_d8c48b7b07cb41b19b3a120555223297_name": {
+            "value": "DB6_disk2_d8c48b7b07cb41b19b3a120555223297"
+            
+        },
+        "disks_DB16_disk2_8644e1334b1c4ee7960134305781a927_name": {
+            "value": "DB16_disk2_8644e1334b1c4ee7960134305781a927"
+            
+        },
+        "disks_DB16_disk2_ab2c6ed0ac5f47ae8747e38c2d09c23c_name": {
+            "value": "DB16_disk2_ab2c6ed0ac5f47ae8747e38c2d09c23c"
+            
+        },
+        "disks_DB16_disk2_c0b0860e52824112883d620020746459_name": {
+            "value": "DB16_disk2_c0b0860e52824112883d620020746459"
+            
+        },
+        "disks_DB62_disk2_a2ef1f5e8ef745c582d51b0e82969944_name": {
+            "value": "DB62_disk2_a2ef1f5e8ef745c582d51b0e82969944"
+            
+        },
+        "disks_DB62_disk2_a7de145b6fa24e3d91bf5c606f8248e4_name": {
+            "value": "DB62_disk2_a7de145b6fa24e3d91bf5c606f8248e4"
+            
+        },
+        "disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name": {
+            "value": "DB62_disk2_fae87097137646dd9eb387454cfd8dd2"
+            
+        },
+        "disks_DB4_OsDisk_1_695485a17e65448f935d84f5564f347b_name": {
+            "value": "DB4_OsDisk_1_695485a17e65448f935d84f5564f347b"
+            
+        },
+        "disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name": {
+            "value": "DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c"
+            
+        },
+        "disks_DB4_OsDisk_1_dcbd8b0a7db242aa914b7179c9901d0a_name": {
+            "value": "DB4_OsDisk_1_dcbd8b0a7db242aa914b7179c9901d0a"
+            
+        },
+        "disks_DB5_OsDisk_1_5b00bac85ebe4670be6d0fb67b51c150_name": {
+            "value": "DB5_OsDisk_1_5b00bac85ebe4670be6d0fb67b51c150"
+            
+        },
+        "disks_DB5_OsDisk_1_7b2904e4f8b44822bfa92cfd749b1830_name": {
+            "value": "DB5_OsDisk_1_7b2904e4f8b44822bfa92cfd749b1830"
+            
+        },
+        "disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name": {
+            "value": "DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc"
+            
+        },
+        "disks_DB6_OsDisk_1_1310296e8d9a4810bb0b66354752a412_name": {
+            "value": "DB6_OsDisk_1_1310296e8d9a4810bb0b66354752a412"
+            
+        },
+        "disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name": {
+            "value": "DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b"
+            
+        },
+        "disks_DB6_OsDisk_1_a6bb82f2d35d4bb2b43417a5538a0b2c_name": {
+            "value": "DB6_OsDisk_1_a6bb82f2d35d4bb2b43417a5538a0b2c"
+            
+        },
+        "disks_DB6_OsDisk_1_e448eedd801442bb99f08930b5456699_name": {
+            "value": "DB6_OsDisk_1_e448eedd801442bb99f08930b5456699"
+            
+        },
+        "disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name": {
+            "value": "DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846"
+            
+        },
+        "disks_DB16_OsDisk_1_ec1028b3ada74335853f210066c10784_name": {
+            "value": "DB16_OsDisk_1_ec1028b3ada74335853f210066c10784"
+            
+        },
+        "disks_DB16_OsDisk_1_f2699875ad70461c9b339641b0a0f1f2_name": {
+            "value": "DB16_OsDisk_1_f2699875ad70461c9b339641b0a0f1f2"
+            
+        },
+        "disks_DB62_OsDisk_1_0479353e35484195932321cef4b34c94_name": {
+            "value": "DB62_OsDisk_1_0479353e35484195932321cef4b34c94"
+            
+        },
+        "disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name": {
+            "value": "DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3"
+            
+        },
+        "disks_DB62_OsDisk_1_72b0889547a34e7e9791c10009a833f3_name": {
+            "value": "DB62_OsDisk_1_72b0889547a34e7e9791c10009a833f3"
+            
+        },
+        "disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name": {
+            "value": "Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15"
+            
+        },
+        "extensions_IaaSAntimalware_name_1": {
+            "value": "IaaSAntimalware"
+            
+        },
+        "disks_ContentDB_disk2_4c1df1df8ab247a8bed24312f324a3fb_name": {
+            "value": "ContentDB_disk2_4c1df1df8ab247a8bed24312f324a3fb"
+            
+        },
+        "disks_ContentDB_disk2_6d6f3d974f984a45b741a460c6b0f288_name": {
+            "value": "ContentDB_disk2_6d6f3d974f984a45b741a460c6b0f288"
+            
+        },
+        "disks_ContentDB_disk2_bd7fe76a40724f6fafed54797a70f492_name": {
+            "value": "ContentDB_disk2_bd7fe76a40724f6fafed54797a70f492"
+            
+        },
+        "disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name": {
+            "value": "ContentDB_disk2_ca320e750bc34085af036a3b30af7af1"
+            
+        },
+        "extensions_IaaSAntimalware_name_2": {
+            "value": "IaaSAntimalware"
+            
+        },
+        "securityRules_ps_name": {
+            "value": "ps"
+            
+        },
+        "disks_ContentDB_OsDisk_1_84786f67a2854778ba0dde9605e17c6a_name": {
+            "value": "ContentDB_OsDisk_1_84786f67a2854778ba0dde9605e17c6a"
+            
+        },
+        "disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name": {
+            "value": "ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e"
+            
+        },
+        "disks_ContentDB_OsDisk_1_c474155893b941469bd6b5415b7fb406_name": {
+            "value": "ContentDB_OsDisk_1_c474155893b941469bd6b5415b7fb406"
+            
+        },
+        "disks_ContentDB_OsDisk_1_f6881e998f9e4dd492ef849a50ec368d_name": {
+            "value": "ContentDB_OsDisk_1_f6881e998f9e4dd492ef849a50ec368d"
+            
+        },
+        "disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name": {
+            "value": "AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349"
+            
+        },
+        "disks_AppServer1_OsDisk_1_e1e84af8a2004d69bfc1dd43f3cf10ba_name": {
+            "value": "AppServer1_OsDisk_1_e1e84af8a2004d69bfc1dd43f3cf10ba"
+            
+        },
+        "disks_ATG_Accounting_disk2_6c4214debbe4480599bdf1c59dd323bc_name": {
+            "value": "ATG-Accounting_disk2_6c4214debbe4480599bdf1c59dd323bc"
+            
+        },
+        "disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name": {
+            "value": "ATG-Accounting_disk2_6df15767536a4f7eb112a652678a0621"
+            
+        },
+        "disks_ATG_Accounting_disk2_7d9b930d7fb44e03aa1bd14014c2a3f0_name": {
+            "value": "ATG-Accounting_disk2_7d9b930d7fb44e03aa1bd14014c2a3f0"
+            
+        },
+        "disks_ATG_Accounting_disk2_88dd9d85924643a69a29c9ee00e459e9_name": {
+            "value": "ATG-Accounting_disk2_88dd9d85924643a69a29c9ee00e459e9"
+            
+        },
+        "disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name": {
+            "value": "ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8"
+            
+        },
+        "securityRules_default_allow_rdp_name": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_1": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_2": {
+            "value": "default-allow-rdp"
+            
+        },
+        "disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name": {
+            "value": "ATG-Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4"
+            
+        },
+        "disks_ATG_Accounting_OsDisk_1_3673283fdcb24ea2881dadec21683bf2_name": {
+            "value": "ATG-Accounting_OsDisk_1_3673283fdcb24ea2881dadec21683bf2"
+            
+        },
+        "disks_ATG_Accounting_OsDisk_1_4fdf3bad248e48a5b1acc45dfce6f1b9_name": {
+            "value": "ATG-Accounting_OsDisk_1_4fdf3bad248e48a5b1acc45dfce6f1b9"
+            
+        },
+        "disks_ATG_Accounting_OsDisk_1_7f26524d66254682824f7237bed42ab0_name": {
+            "value": "ATG-Accounting_OsDisk_1_7f26524d66254682824f7237bed42ab0"
+            
+        },
+        "securityRules_default_allow_rdp_name_3": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_4": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_5": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_6": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_7": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_8": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_9": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_10": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_11": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_12": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_13": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_14": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_15": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_16": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_17": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_18": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_19": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_20": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_21": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_22": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_23": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_24": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_25": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_26": {
+            "value": "default-allow-rdp"
+            
+        },
+        "securityRules_default_allow_rdp_name_27": {
+            "value": "default-allow-rdp"
+            
+        },
+        "loadBalancers_adLoadBalancer_id": {
+            "value": "/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/loadBalancers/adLoadBalancer/frontendIPConfigurations/LBFE"
+            
+        
     }
+}
 }
