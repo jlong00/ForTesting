@@ -53,7 +53,7 @@
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714'.",
     "type": "Microsoft.Compute/disks",
-    "name": "[variables('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name')]",
+    "name": "[parameters('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name')]",
     "apiVersion": "2016-04-30-preview",
     "location": "westus",
     "scale": null,
@@ -73,7 +73,7 @@
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/JumpServer1'.",
     "type": "Microsoft.Compute/virtualMachines",
-    "name": "[variables('virtualMachines_JumpServer1_name')]",
+    "name": "[parameters('virtualMachines_JumpServer1_name')]",
     "apiVersion": "2016-04-30-preview",
     "location": "westus",
     "scale": null,
@@ -90,19 +90,19 @@
             },
             "osDisk": {
                 "osType": "Windows",
-                "name": "[concat(variables('virtualMachines_JumpServer1_name'),'_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714')]",
+                "name": "[concat(parameters('virtualMachines_JumpServer1_name'),'_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714')]",
                 "createOption": "FromImage",
                 "caching": "ReadWrite",
                 "managedDisk": {
                     "storageAccountType": "Premium_LRS",
-                    "id": "[resourceId('Microsoft.Compute/disks', variables('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name'))]"
                 },
                 "diskSizeGB": 127
             },
             "dataDisks": []
         },
         "osProfile": {
-            "computerName": "[variables('virtualMachines_JumpServer1_name')]",
+            "computerName": "[parameters('virtualMachines_JumpServer1_name')]",
             "adminUsername": "adminMaster",
             "windowsConfiguration": {
                 "provisionVMAgent": true,
@@ -113,27 +113,27 @@
         "networkProfile": {
             "networkInterfaces": [
                 {
-                    "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_jumpserver1554_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_jumpserver1554_name'))]"
                 }
             ]
         },
         "diagnosticsProfile": {
             "bootDiagnostics": {
                 "enabled": true,
-                "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
             }
         }
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Compute/disks', variables('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name'))]",
-        "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_jumpserver1554_name'))]",
-        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+        "[resourceId('Microsoft.Compute/disks', parameters('disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name'))]",
+        "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_jumpserver1554_name'))]",
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/jumpserver1554'.",
     "type": "Microsoft.Network/networkInterfaces",
-    "name": "[variables('networkInterfaces_jumpserver1554_name')]",
+    "name": "[parameters('networkInterfaces_jumpserver1554_name')]",
     "apiVersion": "2017-06-01",
     "location": "westus",
     "scale": null,
@@ -149,10 +149,10 @@
                     "privateIPAddress": "10.0.0.5",
                     "privateIPAllocationMethod": "Dynamic",
                     "publicIPAddress": {
-                        "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_JumpServer1_ip_name'))]"
+                        "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_JumpServer1_ip_name'))]"
                     },
                     "subnet": {
-                        "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                        "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                     },
                     "primary": true,
                     "privateIPAddressVersion": "IPv4"
@@ -168,24 +168,24 @@
         "enableAcceleratedNetworking": false,
         "enableIPForwarding": false,
         "networkSecurityGroup": {
-            "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_JumpServer1_nsg_name'))]"
+            "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]"
         },
         "primary": true,
         "virtualMachine": {
-            "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_JumpServer1_name'))]"
+            "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_JumpServer1_name'))]"
         }
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_JumpServer1_ip_name'))]",
-        "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-        "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_JumpServer1_nsg_name'))]",
-        "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_JumpServer1_name'))]"
+        "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_JumpServer1_ip_name'))]",
+        "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]",
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_JumpServer1_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/JumpServer1-nsg'.",
     "type": "Microsoft.Network/networkSecurityGroups",
-    "name": "[variables('networkSecurityGroups_JumpServer1_nsg_name')]",
+    "name": "[parameters('networkSecurityGroups_JumpServer1_nsg_name')]",
     "apiVersion": "2017-06-01",
     "location": "westus",
     "scale": null,
@@ -344,7 +344,7 @@
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/publicIPAddresses/JumpServer1-ip'.",
     "type": "Microsoft.Network/publicIPAddresses",
-    "name": "[variables('publicIPAddresses_JumpServer1_ip_name')]",
+    "name": "[parameters('publicIPAddresses_JumpServer1_ip_name')]",
     "apiVersion": "2017-06-01",
     "location": "westus",
     "scale": null,
@@ -365,13 +365,13 @@
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/JumpServer1/extensions/IaaSAntimalware'.",
     "type": "Microsoft.Compute/virtualMachines/extensions",
-    "name": "[concat(variables('virtualMachines_JumpServer1_name'), '/', variables('extensions_IaaSAntimalware_name_2'))]",
+    "name": "[concat(parameters('virtualMachines_JumpServer1_name'), '/', parameters('extensions_IaaSAntimalware_name_2'))]",
     "apiVersion": "2016-04-30-preview",
     "location": "westus",
     "scale": null,
     "properties": {
         "publisher": "Microsoft.Azure.Security",
-        "type": "[variables('extensions_IaaSAntimalware_name_2')]",
+        "type": "[parameters('extensions_IaaSAntimalware_name_2')]",
         "typeHandlerVersion": "1.3",
         "autoUpgradeMinorVersion": true,
         "settings": {
@@ -391,13 +391,13 @@
         }
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_JumpServer1_name'))]"
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_JumpServer1_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/JumpServer1-nsg/securityRules/default-allow-rdp'.",
     "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-    "name": "[concat(variables('networkSecurityGroups_JumpServer1_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_21'))]",
+    "name": "[concat(parameters('networkSecurityGroups_JumpServer1_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_21'))]",
     "apiVersion": "2017-06-01",
     "scale": null,
     "properties": {
@@ -414,13 +414,13 @@
         "destinationAddressPrefixes": []
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_JumpServer1_nsg_name'))]"
+        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/JumpServer1-nsg/securityRules/ps'.",
     "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-    "name": "[concat(variables('networkSecurityGroups_JumpServer1_nsg_name'), '/', variables('securityRules_ps_name'))]",
+    "name": "[concat(parameters('networkSecurityGroups_JumpServer1_nsg_name'), '/', parameters('securityRules_ps_name'))]",
     "apiVersion": "2017-06-01",
     "scale": null,
     "properties": {
@@ -437,7 +437,7 @@
         "destinationAddressPrefixes": []
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_JumpServer1_nsg_name'))]"
+        "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_JumpServer1_nsg_name'))]"
     ]
 },
 {
@@ -446,7 +446,7 @@
     "sku": {
         "name": "Classic"
     },
-    "name": "[variables('availabilitySets_adAvailabiltySet_name')]",
+    "name": "[parameters('availabilitySets_adAvailabiltySet_name')]",
     "apiVersion": "2016-04-30-preview",
     "location": "westus",
     "scale": null,
@@ -455,24 +455,24 @@
         "platformFaultDomainCount": 3,
         "virtualMachines": [
             {
-                "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_adVM_name'))]"
+                "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
             }
         ]
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_adVM_name'))]"
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/adVM'.",
     "type": "Microsoft.Compute/virtualMachines",
-    "name": "[variables('virtualMachines_adVM_name')]",
+    "name": "[parameters('virtualMachines_adVM_name')]",
     "apiVersion": "2016-04-30-preview",
     "location": "westus",
     "scale": null,
     "properties": {
         "availabilitySet": {
-            "id": "[resourceId('Microsoft.Compute/availabilitySets', variables('availabilitySets_adAvailabiltySet_name'))]"
+            "id": "[resourceId('Microsoft.Compute/availabilitySets', parameters('availabilitySets_adAvailabiltySet_name'))]"
         },
         "hardwareProfile": {
             "vmSize": "Standard_D2_v2"
@@ -489,17 +489,17 @@
                 "name": "osdisk",
                 "createOption": "FromImage",
                 "vhd": {
-                    "uri": "[concat('https', '://', variables('storageAccounts_2vmzo4mqlfyhkadsa_name'), '.blob.core.windows.net', concat('/vhds/', variables('virtualMachines_adVM_name'),'-os-disk.vhd'))]"
+                    "uri": "[concat('https', '://', parameters('storageAccounts_2vmzo4mqlfyhkadsa_name'), '.blob.core.windows.net', concat('/vhds/', parameters('virtualMachines_adVM_name'),'-os-disk.vhd'))]"
                 },
                 "caching": "ReadWrite"
             },
             "dataDisks": [
                 {
                     "lun": 0,
-                    "name": "[concat(variables('virtualMachines_adVM_name'),'-data-disk')]",
+                    "name": "[concat(parameters('virtualMachines_adVM_name'),'-data-disk')]",
                     "createOption": "Empty",
                     "vhd": {
-                        "uri": "[concat('https', '://', variables('storageAccounts_2vmzo4mqlfyhkadsa_name'), '.blob.core.windows.net', concat('/vhds/', variables('virtualMachines_adVM_name'),'-data-disk.vhd'))]"
+                        "uri": "[concat('https', '://', parameters('storageAccounts_2vmzo4mqlfyhkadsa_name'), '.blob.core.windows.net', concat('/vhds/', parameters('virtualMachines_adVM_name'),'-data-disk.vhd'))]"
                     },
                     "caching": "None",
                     "diskSizeGB": 1000
@@ -507,7 +507,7 @@
             ]
         },
         "osProfile": {
-            "computerName": "[variables('virtualMachines_adVM_name')]",
+            "computerName": "[parameters('virtualMachines_adVM_name')]",
             "adminUsername": "adminMaster",
             "windowsConfiguration": {
                 "provisionVMAgent": true,
@@ -518,21 +518,21 @@
         "networkProfile": {
             "networkInterfaces": [
                 {
-                    "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_adNic_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_adNic_name'))]"
                 }
             ]
         }
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Compute/availabilitySets', variables('availabilitySets_adAvailabiltySet_name'))]",
-        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_2vmzo4mqlfyhkadsa_name'))]",
-        "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_adNic_name'))]"
+        "[resourceId('Microsoft.Compute/availabilitySets', parameters('availabilitySets_adAvailabiltySet_name'))]",
+        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_2vmzo4mqlfyhkadsa_name'))]",
+        "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_adNic_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/loadBalancers/adLoadBalancer'.",
     "type": "Microsoft.Network/loadBalancers",
-    "name": "[variables('loadBalancers_adLoadBalancer_name')]",
+    "name": "[parameters('loadBalancers_adLoadBalancer_name')]",
     "apiVersion": "2017-06-01",
     "location": "westus",
     "scale": null,
@@ -547,7 +547,7 @@
                     "provisioningState": "Succeeded",
                     "privateIPAllocationMethod": "Dynamic",
                     "publicIPAddress": {
-                        "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_adPublicIP_name'))]"
+                        "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_adPublicIP_name'))]"
                     }
                 }
             }
@@ -570,7 +570,7 @@
                 "properties": {
                     "provisioningState": "Succeeded",
                     "frontendIPConfiguration": {
-                        "id": "[variables('loadBalancers_adLoadBalancer_id')]"
+                        "id": "[parameters('loadBalancers_adLoadBalancer_id')]"
                     },
                     "frontendPort": 3389,
                     "backendPort": 3389,
@@ -584,13 +584,13 @@
         "inboundNatPools": []
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_adPublicIP_name'))]"
+        "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_adPublicIP_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/adNic'.",
     "type": "Microsoft.Network/networkInterfaces",
-    "name": "[variables('networkInterfaces_adNic_name')]",
+    "name": "[parameters('networkInterfaces_adNic_name')]",
     "apiVersion": "2017-06-01",
     "location": "westus",
     "scale": null,
@@ -606,18 +606,18 @@
                     "privateIPAddress": "10.0.0.4",
                     "privateIPAllocationMethod": "Static",
                     "subnet": {
-                        "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                        "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                     },
                     "primary": true,
                     "privateIPAddressVersion": "IPv4",
                     "loadBalancerBackendAddressPools": [
                         {
-                            "id": "[concat(resourceId('Microsoft.Network/loadBalancers', variables('loadBalancers_adLoadBalancer_name')), '/backendAddressPools/LBBE')]"
+                            "id": "[concat(resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name')), '/backendAddressPools/LBBE')]"
                         }
                     ],
                     "loadBalancerInboundNatRules": [
                         {
-                            "id": "[concat(resourceId('Microsoft.Network/loadBalancers', variables('loadBalancers_adLoadBalancer_name')), '/inboundNatRules/adRDP')]"
+                            "id": "[concat(resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name')), '/inboundNatRules/adRDP')]"
                         }
                     ]
                 }
@@ -633,19 +633,19 @@
         "enableIPForwarding": false,
         "primary": true,
         "virtualMachine": {
-            "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_adVM_name'))]"
+            "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
         }
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-        "[resourceId('Microsoft.Network/loadBalancers', variables('loadBalancers_adLoadBalancer_name'))]",
-        "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_adVM_name'))]"
+        "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+        "[resourceId('Microsoft.Network/loadBalancers', parameters('loadBalancers_adLoadBalancer_name'))]",
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
     ]
 },
 {
     "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/adVM/extensions/CreateADForest'.",
     "type": "Microsoft.Compute/virtualMachines/extensions",
-    "name": "[concat(variables('virtualMachines_adVM_name'), '/', variables('extensions_CreateADForest_name'))]",
+    "name": "[concat(parameters('virtualMachines_adVM_name'), '/', parameters('extensions_CreateADForest_name'))]",
     "apiVersion": "2016-04-30-preview",
     "location": "westus",
     "scale": null,
@@ -668,7 +668,7 @@
         "protectedSettings": {}
     },
     "dependsOn": [
-        "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_adVM_name'))]"
+        "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_adVM_name'))]"
       ]
       }
       ]      

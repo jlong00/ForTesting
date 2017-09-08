@@ -632,7 +632,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name')]",
+            "name": "[parameters('disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -652,7 +652,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/AppServer1_OsDisk_1_e1e84af8a2004d69bfc1dd43f3cf10ba'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_AppServer1_OsDisk_1_e1e84af8a2004d69bfc1dd43f3cf10ba_name')]",
+            "name": "[parameters('disks_AppServer1_OsDisk_1_e1e84af8a2004d69bfc1dd43f3cf10ba_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -672,7 +672,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_disk2_6c4214debbe4480599bdf1c59dd323bc'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_disk2_6c4214debbe4480599bdf1c59dd323bc_name')]",
+            "name": "[parameters('disks_ATG_Accounting_disk2_6c4214debbe4480599bdf1c59dd323bc_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -688,7 +688,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_disk2_6df15767536a4f7eb112a652678a0621'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name')]",
+            "name": "[parameters('disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -704,7 +704,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_disk2_7d9b930d7fb44e03aa1bd14014c2a3f0'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_disk2_7d9b930d7fb44e03aa1bd14014c2a3f0_name')]",
+            "name": "[parameters('disks_ATG_Accounting_disk2_7d9b930d7fb44e03aa1bd14014c2a3f0_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -720,7 +720,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_disk2_88dd9d85924643a69a29c9ee00e459e9'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_disk2_88dd9d85924643a69a29c9ee00e459e9_name')]",
+            "name": "[parameters('disks_ATG_Accounting_disk2_88dd9d85924643a69a29c9ee00e459e9_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -736,7 +736,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name')]",
+            "name": "[parameters('disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -756,7 +756,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_OsDisk_1_3673283fdcb24ea2881dadec21683bf2'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_OsDisk_1_3673283fdcb24ea2881dadec21683bf2_name')]",
+            "name": "[parameters('disks_ATG_Accounting_OsDisk_1_3673283fdcb24ea2881dadec21683bf2_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -776,7 +776,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_OsDisk_1_4fdf3bad248e48a5b1acc45dfce6f1b9'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_OsDisk_1_4fdf3bad248e48a5b1acc45dfce6f1b9_name')]",
+            "name": "[parameters('disks_ATG_Accounting_OsDisk_1_4fdf3bad248e48a5b1acc45dfce6f1b9_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -796,7 +796,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ATG-Accounting_OsDisk_1_7f26524d66254682824f7237bed42ab0'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ATG_Accounting_OsDisk_1_7f26524d66254682824f7237bed42ab0_name')]",
+            "name": "[parameters('disks_ATG_Accounting_OsDisk_1_7f26524d66254682824f7237bed42ab0_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -816,7 +816,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_disk2_4c1df1df8ab247a8bed24312f324a3fb'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_disk2_4c1df1df8ab247a8bed24312f324a3fb_name')]",
+            "name": "[parameters('disks_ContentDB_disk2_4c1df1df8ab247a8bed24312f324a3fb_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -832,7 +832,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_disk2_6d6f3d974f984a45b741a460c6b0f288'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_disk2_6d6f3d974f984a45b741a460c6b0f288_name')]",
+            "name": "[parameters('disks_ContentDB_disk2_6d6f3d974f984a45b741a460c6b0f288_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -848,7 +848,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_disk2_bd7fe76a40724f6fafed54797a70f492'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_disk2_bd7fe76a40724f6fafed54797a70f492_name')]",
+            "name": "[parameters('disks_ContentDB_disk2_bd7fe76a40724f6fafed54797a70f492_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -864,7 +864,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_disk2_ca320e750bc34085af036a3b30af7af1'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name')]",
+            "name": "[parameters('disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -880,7 +880,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_OsDisk_1_84786f67a2854778ba0dde9605e17c6a'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_OsDisk_1_84786f67a2854778ba0dde9605e17c6a_name')]",
+            "name": "[parameters('disks_ContentDB_OsDisk_1_84786f67a2854778ba0dde9605e17c6a_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -900,7 +900,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name')]",
+            "name": "[parameters('disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -920,7 +920,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_OsDisk_1_c474155893b941469bd6b5415b7fb406'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_OsDisk_1_c474155893b941469bd6b5415b7fb406_name')]",
+            "name": "[parameters('disks_ContentDB_OsDisk_1_c474155893b941469bd6b5415b7fb406_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -940,7 +940,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentDB_OsDisk_1_f6881e998f9e4dd492ef849a50ec368d'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentDB_OsDisk_1_f6881e998f9e4dd492ef849a50ec368d_name')]",
+            "name": "[parameters('disks_ContentDB_OsDisk_1_f6881e998f9e4dd492ef849a50ec368d_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -960,7 +960,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name')]",
+            "name": "[parameters('disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -980,7 +980,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB16_disk2_8644e1334b1c4ee7960134305781a927'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB16_disk2_8644e1334b1c4ee7960134305781a927_name')]",
+            "name": "[parameters('disks_DB16_disk2_8644e1334b1c4ee7960134305781a927_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -996,7 +996,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB16_disk2_ab2c6ed0ac5f47ae8747e38c2d09c23c'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB16_disk2_ab2c6ed0ac5f47ae8747e38c2d09c23c_name')]",
+            "name": "[parameters('disks_DB16_disk2_ab2c6ed0ac5f47ae8747e38c2d09c23c_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1012,7 +1012,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB16_disk2_c0b0860e52824112883d620020746459'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB16_disk2_c0b0860e52824112883d620020746459_name')]",
+            "name": "[parameters('disks_DB16_disk2_c0b0860e52824112883d620020746459_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1028,7 +1028,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name')]",
+            "name": "[parameters('disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1048,7 +1048,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB16_OsDisk_1_ec1028b3ada74335853f210066c10784'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB16_OsDisk_1_ec1028b3ada74335853f210066c10784_name')]",
+            "name": "[parameters('disks_DB16_OsDisk_1_ec1028b3ada74335853f210066c10784_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1068,7 +1068,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB16_OsDisk_1_f2699875ad70461c9b339641b0a0f1f2'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB16_OsDisk_1_f2699875ad70461c9b339641b0a0f1f2_name')]",
+            "name": "[parameters('disks_DB16_OsDisk_1_f2699875ad70461c9b339641b0a0f1f2_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1088,7 +1088,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB4_disk2_42f6e5eae4124e50831d33fe297919bd'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name')]",
+            "name": "[parameters('disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1104,7 +1104,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB4_disk2_756f09035ecf4352b9dfcc7dbfbe9dd6'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB4_disk2_756f09035ecf4352b9dfcc7dbfbe9dd6_name')]",
+            "name": "[parameters('disks_DB4_disk2_756f09035ecf4352b9dfcc7dbfbe9dd6_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1120,7 +1120,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB4_disk2_a64311d5331d413e87df9582d6824467'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB4_disk2_a64311d5331d413e87df9582d6824467_name')]",
+            "name": "[parameters('disks_DB4_disk2_a64311d5331d413e87df9582d6824467_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1136,7 +1136,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB4_OsDisk_1_695485a17e65448f935d84f5564f347b'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB4_OsDisk_1_695485a17e65448f935d84f5564f347b_name')]",
+            "name": "[parameters('disks_DB4_OsDisk_1_695485a17e65448f935d84f5564f347b_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1156,7 +1156,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name')]",
+            "name": "[parameters('disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1176,7 +1176,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB4_OsDisk_1_dcbd8b0a7db242aa914b7179c9901d0a'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB4_OsDisk_1_dcbd8b0a7db242aa914b7179c9901d0a_name')]",
+            "name": "[parameters('disks_DB4_OsDisk_1_dcbd8b0a7db242aa914b7179c9901d0a_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1196,7 +1196,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB5_disk2_167ec29cfd644d6d923beda9242aad90'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB5_disk2_167ec29cfd644d6d923beda9242aad90_name')]",
+            "name": "[parameters('disks_DB5_disk2_167ec29cfd644d6d923beda9242aad90_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1212,7 +1212,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB5_disk2_4764220e8f614c0dab06b640378dc735'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name')]",
+            "name": "[parameters('disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1228,7 +1228,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB5_disk2_b62848a043124d47abf52b55b7938ab9'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB5_disk2_b62848a043124d47abf52b55b7938ab9_name')]",
+            "name": "[parameters('disks_DB5_disk2_b62848a043124d47abf52b55b7938ab9_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1244,7 +1244,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB5_OsDisk_1_5b00bac85ebe4670be6d0fb67b51c150'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB5_OsDisk_1_5b00bac85ebe4670be6d0fb67b51c150_name')]",
+            "name": "[parameters('disks_DB5_OsDisk_1_5b00bac85ebe4670be6d0fb67b51c150_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1264,7 +1264,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB5_OsDisk_1_7b2904e4f8b44822bfa92cfd749b1830'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB5_OsDisk_1_7b2904e4f8b44822bfa92cfd749b1830_name')]",
+            "name": "[parameters('disks_DB5_OsDisk_1_7b2904e4f8b44822bfa92cfd749b1830_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1284,7 +1284,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name')]",
+            "name": "[parameters('disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1304,7 +1304,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB62_disk2_a2ef1f5e8ef745c582d51b0e82969944'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB62_disk2_a2ef1f5e8ef745c582d51b0e82969944_name')]",
+            "name": "[parameters('disks_DB62_disk2_a2ef1f5e8ef745c582d51b0e82969944_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1320,7 +1320,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB62_disk2_a7de145b6fa24e3d91bf5c606f8248e4'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB62_disk2_a7de145b6fa24e3d91bf5c606f8248e4_name')]",
+            "name": "[parameters('disks_DB62_disk2_a7de145b6fa24e3d91bf5c606f8248e4_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1336,7 +1336,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB62_disk2_fae87097137646dd9eb387454cfd8dd2'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name')]",
+            "name": "[parameters('disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1352,7 +1352,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB62_OsDisk_1_0479353e35484195932321cef4b34c94'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB62_OsDisk_1_0479353e35484195932321cef4b34c94_name')]",
+            "name": "[parameters('disks_DB62_OsDisk_1_0479353e35484195932321cef4b34c94_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1372,7 +1372,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name')]",
+            "name": "[parameters('disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1392,7 +1392,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB62_OsDisk_1_72b0889547a34e7e9791c10009a833f3'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB62_OsDisk_1_72b0889547a34e7e9791c10009a833f3_name')]",
+            "name": "[parameters('disks_DB62_OsDisk_1_72b0889547a34e7e9791c10009a833f3_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1412,7 +1412,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_disk2_034cdbc74baf433f9bb22adab978474b'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_disk2_034cdbc74baf433f9bb22adab978474b_name')]",
+            "name": "[parameters('disks_DB6_disk2_034cdbc74baf433f9bb22adab978474b_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1428,7 +1428,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_disk2_9567291abd934894a61c89b7c015a280'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name')]",
+            "name": "[parameters('disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1444,7 +1444,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_disk2_ae83f968a96d47568452409d3138ddc5'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_disk2_ae83f968a96d47568452409d3138ddc5_name')]",
+            "name": "[parameters('disks_DB6_disk2_ae83f968a96d47568452409d3138ddc5_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1460,7 +1460,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_disk2_d8c48b7b07cb41b19b3a120555223297'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_disk2_d8c48b7b07cb41b19b3a120555223297_name')]",
+            "name": "[parameters('disks_DB6_disk2_d8c48b7b07cb41b19b3a120555223297_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1476,7 +1476,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_OsDisk_1_1310296e8d9a4810bb0b66354752a412'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_OsDisk_1_1310296e8d9a4810bb0b66354752a412_name')]",
+            "name": "[parameters('disks_DB6_OsDisk_1_1310296e8d9a4810bb0b66354752a412_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1496,7 +1496,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name')]",
+            "name": "[parameters('disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1516,7 +1516,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_OsDisk_1_a6bb82f2d35d4bb2b43417a5538a0b2c'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_OsDisk_1_a6bb82f2d35d4bb2b43417a5538a0b2c_name')]",
+            "name": "[parameters('disks_DB6_OsDisk_1_a6bb82f2d35d4bb2b43417a5538a0b2c_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1536,7 +1536,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/DB6_OsDisk_1_e448eedd801442bb99f08930b5456699'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_DB6_OsDisk_1_e448eedd801442bb99f08930b5456699_name')]",
+            "name": "[parameters('disks_DB6_OsDisk_1_e448eedd801442bb99f08930b5456699_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1556,7 +1556,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/disks/Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15'.",
             "type": "Microsoft.Compute/disks",
-            "name": "[variables('disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name')]",
+            "name": "[parameters('disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1576,7 +1576,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/AppServer1'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_AppServer1_name')]",
+            "name": "[parameters('virtualMachines_AppServer1_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1593,17 +1593,17 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_AppServer1_name'),'_OsDisk_1_60f155ecf907466fb286ca9522e2c349')]",
+                        "name": "[concat(parameters('virtualMachines_AppServer1_name'),'_OsDisk_1_60f155ecf907466fb286ca9522e2c349')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name'))]"
                         }
                     },
                     "dataDisks": []
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_AppServer1_name')]",
+                    "computerName": "[parameters('virtualMachines_AppServer1_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -1615,27 +1615,27 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_appserver1389_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_appserver1389_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_appserver1389_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_appserver1389_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/ATG-Accounting'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_ATG_Accounting_name')]",
+            "name": "[parameters('virtualMachines_ATG_Accounting_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1652,27 +1652,27 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_ATG_Accounting_name'),'_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4')]",
+                        "name": "[concat(parameters('virtualMachines_ATG_Accounting_name'),'_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name'))]"
                         }
                     },
                     "dataDisks": [
                         {
                             "lun": 0,
-                            "name": "[concat(variables('virtualMachines_ATG_Accounting_name'),'_disk2_6df15767536a4f7eb112a652678a0621')]",
+                            "name": "[concat(parameters('virtualMachines_ATG_Accounting_name'),'_disk2_6df15767536a4f7eb112a652678a0621')]",
                             "createOption": "Empty",
                             "caching": "ReadOnly",
                             "managedDisk": {
-                                "id": "[resourceId('Microsoft.Compute/disks', variables('disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name'))]"
+                                "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name'))]"
                             }
                         }
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_ATG_Accounting_name')]",
+                    "computerName": "[parameters('virtualMachines_ATG_Accounting_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -1684,28 +1684,28 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_atg_accounting685_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_atg_accounting685_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name'))]",
-                "[resourceId('Microsoft.Compute/disks', variables('disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_atg_accounting685_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name'))]",
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_atg_accounting685_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/ContentDB'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_ContentDB_name')]",
+            "name": "[parameters('virtualMachines_ContentDB_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1722,27 +1722,27 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_ContentDB_name'),'_OsDisk_1_8650c44a7ce64734b4d56570981ba15e')]",
+                        "name": "[concat(parameters('virtualMachines_ContentDB_name'),'_OsDisk_1_8650c44a7ce64734b4d56570981ba15e')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name'))]"
                         }
                     },
                     "dataDisks": [
                         {
                             "lun": 0,
-                            "name": "[concat(variables('virtualMachines_ContentDB_name'),'_disk2_ca320e750bc34085af036a3b30af7af1')]",
+                            "name": "[concat(parameters('virtualMachines_ContentDB_name'),'_disk2_ca320e750bc34085af036a3b30af7af1')]",
                             "createOption": "Empty",
                             "caching": "ReadOnly",
                             "managedDisk": {
-                                "id": "[resourceId('Microsoft.Compute/disks', variables('disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name'))]"
+                                "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name'))]"
                             }
                         }
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_ContentDB_name')]",
+                    "computerName": "[parameters('virtualMachines_ContentDB_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -1754,28 +1754,28 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_contentdb831_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_contentdb831_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name'))]",
-                "[resourceId('Microsoft.Compute/disks', variables('disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_contentdb831_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name'))]",
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_contentdb831_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/ContentTools'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_ContentTools_name')]",
+            "name": "[parameters('virtualMachines_ContentTools_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1792,17 +1792,17 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_ContentTools_name'),'_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8')]",
+                        "name": "[concat(parameters('virtualMachines_ContentTools_name'),'_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name'))]"
                         }
                     },
                     "dataDisks": []
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_ContentTools_name')]",
+                    "computerName": "[parameters('virtualMachines_ContentTools_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -1814,27 +1814,27 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_contenttools298_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_contenttools298_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_contenttools298_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_contenttools298_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/DB16'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_DB16_name')]",
+            "name": "[parameters('virtualMachines_DB16_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1851,27 +1851,27 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_DB16_name'),'_OsDisk_1_dfd673229a1a45a1967340889b30c846')]",
+                        "name": "[concat(parameters('virtualMachines_DB16_name'),'_OsDisk_1_dfd673229a1a45a1967340889b30c846')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name'))]"
                         }
                     },
                     "dataDisks": [
                         {
                             "lun": 0,
-                            "name": "[concat(variables('virtualMachines_DB16_name'),'_disk2_c0b0860e52824112883d620020746459')]",
+                            "name": "[concat(parameters('virtualMachines_DB16_name'),'_disk2_c0b0860e52824112883d620020746459')]",
                             "createOption": "Empty",
                             "caching": "ReadOnly",
                             "managedDisk": {
-                                "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB16_disk2_c0b0860e52824112883d620020746459_name'))]"
+                                "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB16_disk2_c0b0860e52824112883d620020746459_name'))]"
                             }
                         }
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_DB16_name')]",
+                    "computerName": "[parameters('virtualMachines_DB16_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -1883,28 +1883,28 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db16445_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db16445_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name'))]",
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB16_disk2_c0b0860e52824112883d620020746459_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db16445_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name'))]",
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB16_disk2_c0b0860e52824112883d620020746459_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db16445_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/DB4'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_DB4_name')]",
+            "name": "[parameters('virtualMachines_DB4_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1921,27 +1921,27 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_DB4_name'),'_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c')]",
+                        "name": "[concat(parameters('virtualMachines_DB4_name'),'_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name'))]"
                         }
                     },
                     "dataDisks": [
                         {
                             "lun": 0,
-                            "name": "[concat(variables('virtualMachines_DB4_name'),'_disk2_42f6e5eae4124e50831d33fe297919bd')]",
+                            "name": "[concat(parameters('virtualMachines_DB4_name'),'_disk2_42f6e5eae4124e50831d33fe297919bd')]",
                             "createOption": "Empty",
                             "caching": "ReadOnly",
                             "managedDisk": {
-                                "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name'))]"
+                                "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name'))]"
                             }
                         }
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_DB4_name')]",
+                    "computerName": "[parameters('virtualMachines_DB4_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -1953,28 +1953,28 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db439_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db439_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name'))]",
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db439_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name'))]",
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db439_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/DB5'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_DB5_name')]",
+            "name": "[parameters('virtualMachines_DB5_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -1991,27 +1991,27 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_DB5_name'),'_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc')]",
+                        "name": "[concat(parameters('virtualMachines_DB5_name'),'_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name'))]"
                         }
                     },
                     "dataDisks": [
                         {
                             "lun": 0,
-                            "name": "[concat(variables('virtualMachines_DB5_name'),'_disk2_4764220e8f614c0dab06b640378dc735')]",
+                            "name": "[concat(parameters('virtualMachines_DB5_name'),'_disk2_4764220e8f614c0dab06b640378dc735')]",
                             "createOption": "Empty",
                             "caching": "ReadOnly",
                             "managedDisk": {
-                                "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name'))]"
+                                "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name'))]"
                             }
                         }
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_DB5_name')]",
+                    "computerName": "[parameters('virtualMachines_DB5_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -2023,28 +2023,28 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db5952_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db5952_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name'))]",
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db5952_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name'))]",
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db5952_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/DB6'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_DB6_name')]",
+            "name": "[parameters('virtualMachines_DB6_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -2061,31 +2061,31 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_DB6_name'),'_OsDisk_1_1d790f873a344d9594cac17e0df9c78b')]",
+                        "name": "[concat(parameters('virtualMachines_DB6_name'),'_OsDisk_1_1d790f873a344d9594cac17e0df9c78b')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
                             "storageAccountType": "Premium_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name'))]"
                         },
                         "diskSizeGB": 127
                     },
                     "dataDisks": [
                         {
                             "lun": 0,
-                            "name": "[concat(variables('virtualMachines_DB6_name'),'_disk2_9567291abd934894a61c89b7c015a280')]",
+                            "name": "[concat(parameters('virtualMachines_DB6_name'),'_disk2_9567291abd934894a61c89b7c015a280')]",
                             "createOption": "Empty",
                             "caching": "ReadOnly",
                             "managedDisk": {
                                 "storageAccountType": "Premium_LRS",
-                                "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name'))]"
+                                "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name'))]"
                             },
                             "diskSizeGB": 1023
                         }
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_DB6_name')]",
+                    "computerName": "[parameters('virtualMachines_DB6_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -2097,28 +2097,28 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db6915_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db6915_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name'))]",
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db6915_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name'))]",
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db6915_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/DB62'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_DB62_name')]",
+            "name": "[parameters('virtualMachines_DB62_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -2135,27 +2135,27 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_DB62_name'),'_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3')]",
+                        "name": "[concat(parameters('virtualMachines_DB62_name'),'_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name'))]"
                         }
                     },
                     "dataDisks": [
                         {
                             "lun": 0,
-                            "name": "[concat(variables('virtualMachines_DB62_name'),'_disk2_fae87097137646dd9eb387454cfd8dd2')]",
+                            "name": "[concat(parameters('virtualMachines_DB62_name'),'_disk2_fae87097137646dd9eb387454cfd8dd2')]",
                             "createOption": "Empty",
                             "caching": "ReadOnly",
                             "managedDisk": {
-                                "id": "[resourceId('Microsoft.Compute/disks', variables('disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name'))]"
+                                "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name'))]"
                             }
                         }
                     ]
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_DB62_name')]",
+                    "computerName": "[parameters('virtualMachines_DB62_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -2167,28 +2167,28 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db62979_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db62979_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name'))]",
-                "[resourceId('Microsoft.Compute/disks', variables('disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_db62979_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name'))]",
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_db62979_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/Job1'.",
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[variables('virtualMachines_Job1_name')]",
+            "name": "[parameters('virtualMachines_Job1_name')]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
@@ -2205,17 +2205,17 @@
                     },
                     "osDisk": {
                         "osType": "Windows",
-                        "name": "[concat(variables('virtualMachines_Job1_name'),'_OsDisk_1_97c97c5d541b445fb8a453d02e851d15')]",
+                        "name": "[concat(parameters('virtualMachines_Job1_name'),'_OsDisk_1_97c97c5d541b445fb8a453d02e851d15')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "id": "[resourceId('Microsoft.Compute/disks', variables('disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', parameters('disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name'))]"
                         }
                     },
                     "dataDisks": []
                 },
                 "osProfile": {
-                    "computerName": "[variables('virtualMachines_Job1_name')]",
+                    "computerName": "[parameters('virtualMachines_Job1_name')]",
                     "adminUsername": "adminMaster",
                     "adminPassword": "[parameters('AdminPassword')]",
                     "windowsConfiguration": {
@@ -2227,27 +2227,27 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_job1733_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_job1733_name'))]"
                         }
                     ]
                 },
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
                         "enabled": true,
-                        "storageUri": "[concat('https', '://', variables('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
+                        "storageUri": "[concat('https', '://', parameters('storageAccounts_atglowerrgdiag337_name'), '.blob.core.windows.net', '/')]"
                     }
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/disks', variables('disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('networkInterfaces_job1733_name'))]",
-                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_atglowerrgdiag337_name'))]"
+                "[resourceId('Microsoft.Compute/disks', parameters('disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_job1733_name'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_atglowerrgdiag337_name'))]"
             ]
         },
        {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/appserver1154'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_appserver1154_name')]",
+            "name": "[parameters('networkInterfaces_appserver1154_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2263,7 +2263,7 @@
                             "privateIPAddress": "10.0.0.11",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2278,18 +2278,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_AppServer1_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_AppServer1_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/appserver1389'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_appserver1389_name')]",
+            "name": "[parameters('networkInterfaces_appserver1389_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2305,7 +2305,7 @@
                             "privateIPAddress": "10.0.0.16",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2319,23 +2319,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_AppServer1nsg253_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1nsg253_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_AppServer1_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_AppServer1_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_AppServer1nsg253_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_AppServer1_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1nsg253_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_AppServer1_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/atg-accounting292'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_atg_accounting292_name')]",
+            "name": "[parameters('networkInterfaces_atg_accounting292_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2351,7 +2351,7 @@
                             "privateIPAddress": "10.0.0.17",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2366,18 +2366,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg212_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg212_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg212_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg212_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/atg-accounting685'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_atg_accounting685_name')]",
+            "name": "[parameters('networkInterfaces_atg_accounting685_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2393,7 +2393,7 @@
                             "privateIPAddress": "10.0.0.27",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2407,23 +2407,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg776_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg776_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_ATG_Accounting_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ATG_Accounting_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg776_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_ATG_Accounting_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg776_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ATG_Accounting_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/atg-accounting822'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_atg_accounting822_name')]",
+            "name": "[parameters('networkInterfaces_atg_accounting822_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2439,7 +2439,7 @@
                             "privateIPAddress": "10.0.0.24",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2453,18 +2453,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg702_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg702_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg702_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg702_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/atg-accounting954'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_atg_accounting954_name')]",
+            "name": "[parameters('networkInterfaces_atg_accounting954_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2480,7 +2480,7 @@
                             "privateIPAddress": "10.0.0.10",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2494,18 +2494,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATG_Accounting_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATG_Accounting_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATG_Accounting_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATG_Accounting_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/contentdb374'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_contentdb374_name')]",
+            "name": "[parameters('networkInterfaces_contentdb374_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2521,7 +2521,7 @@
                             "privateIPAddress": "10.0.0.6",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2535,18 +2535,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDB_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDB_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDB_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDB_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/contentdb818'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_contentdb818_name')]",
+            "name": "[parameters('networkInterfaces_contentdb818_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2562,7 +2562,7 @@
                             "privateIPAddress": "10.0.0.26",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2576,18 +2576,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg250_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg250_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg250_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg250_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/contentdb831'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_contentdb831_name')]",
+            "name": "[parameters('networkInterfaces_contentdb831_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2603,7 +2603,7 @@
                             "privateIPAddress": "10.0.0.28",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2617,23 +2617,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg675_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg675_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_ContentDB_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ContentDB_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg675_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_ContentDB_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg675_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ContentDB_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/contentdb914'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_contentdb914_name')]",
+            "name": "[parameters('networkInterfaces_contentdb914_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2649,7 +2649,7 @@
                             "privateIPAddress": "10.0.0.18",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2664,18 +2664,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg743_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg743_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg743_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg743_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/contenttools298'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_contenttools298_name')]",
+            "name": "[parameters('networkInterfaces_contenttools298_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2691,7 +2691,7 @@
                             "privateIPAddress": "10.0.0.12",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2705,23 +2705,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentTools_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentTools_nsg_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_ContentTools_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ContentTools_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentTools_nsg_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_ContentTools_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentTools_nsg_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_ContentTools_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db161'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db161_name')]",
+            "name": "[parameters('networkInterfaces_db161_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2737,7 +2737,7 @@
                             "privateIPAddress": "10.0.0.13",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2751,18 +2751,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db16445'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db16445_name')]",
+            "name": "[parameters('networkInterfaces_db16445_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2778,7 +2778,7 @@
                             "privateIPAddress": "10.0.0.32",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2792,23 +2792,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16nsg981_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg981_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB16_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB16_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16nsg981_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB16_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg981_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB16_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db16723'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db16723_name')]",
+            "name": "[parameters('networkInterfaces_db16723_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2824,7 +2824,7 @@
                             "privateIPAddress": "10.0.0.22",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2838,18 +2838,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16nsg318_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg318_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16nsg318_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg318_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db439'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db439_name')]",
+            "name": "[parameters('networkInterfaces_db439_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2865,7 +2865,7 @@
                             "privateIPAddress": "10.0.0.29",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2879,23 +2879,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4nsg298_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg298_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB4_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB4_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4nsg298_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB4_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg298_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB4_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db4487'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db4487_name')]",
+            "name": "[parameters('networkInterfaces_db4487_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2911,7 +2911,7 @@
                             "privateIPAddress": "10.0.0.19",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2925,18 +2925,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4nsg115_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg115_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4nsg115_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg115_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db4981'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db4981_name')]",
+            "name": "[parameters('networkInterfaces_db4981_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2952,7 +2952,7 @@
                             "privateIPAddress": "10.0.0.9",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -2966,18 +2966,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db5277'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db5277_name')]",
+            "name": "[parameters('networkInterfaces_db5277_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -2993,7 +2993,7 @@
                             "privateIPAddress": "10.0.0.20",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3007,18 +3007,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5nsg517_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg517_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5nsg517_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg517_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db5325'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db5325_name')]",
+            "name": "[parameters('networkInterfaces_db5325_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3034,7 +3034,7 @@
                             "privateIPAddress": "10.0.0.8",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3049,18 +3049,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db5952'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db5952_name')]",
+            "name": "[parameters('networkInterfaces_db5952_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3076,7 +3076,7 @@
                             "privateIPAddress": "10.0.0.30",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3090,23 +3090,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5nsg123_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg123_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB5_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB5_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5nsg123_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB5_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg123_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB5_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db6215'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db6215_name')]",
+            "name": "[parameters('networkInterfaces_db6215_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3122,7 +3122,7 @@
                             "privateIPAddress": "10.0.0.7",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3137,18 +3137,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db62746'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db62746_name')]",
+            "name": "[parameters('networkInterfaces_db62746_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3164,7 +3164,7 @@
                             "privateIPAddress": "10.0.0.14",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3178,18 +3178,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62_nsg_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62_nsg_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db62795'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db62795_name')]",
+            "name": "[parameters('networkInterfaces_db62795_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3205,7 +3205,7 @@
                             "privateIPAddress": "10.0.0.23",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3219,18 +3219,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62nsg662_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg662_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62nsg662_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg662_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db62979'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db62979_name')]",
+            "name": "[parameters('networkInterfaces_db62979_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3246,7 +3246,7 @@
                             "privateIPAddress": "10.0.0.33",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3260,23 +3260,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62nsg740_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg740_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB62_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB62_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62nsg740_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB62_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg740_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB62_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db6387'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db6387_name')]",
+            "name": "[parameters('networkInterfaces_db6387_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3292,7 +3292,7 @@
                             "privateIPAddress": "10.0.0.25",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3307,18 +3307,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg460_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg460_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg460_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg460_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db6792'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db6792_name')]",
+            "name": "[parameters('networkInterfaces_db6792_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3334,7 +3334,7 @@
                             "privateIPAddress": "10.0.0.21",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3349,18 +3349,18 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg400_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg400_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg400_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg400_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/db6915'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_db6915_name')]",
+            "name": "[parameters('networkInterfaces_db6915_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3376,7 +3376,7 @@
                             "privateIPAddress": "10.0.0.31",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3392,23 +3392,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg640_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg640_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB6_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB6_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg640_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_DB6_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg640_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_DB6_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkInterfaces/job1733'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[variables('networkInterfaces_job1733_name')]",
+            "name": "[parameters('networkInterfaces_job1733_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3424,7 +3424,7 @@
                             "privateIPAddress": "10.0.0.15",
                             "privateIPAllocationMethod": "Dynamic",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -3438,23 +3438,23 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_Job1_nsg_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Job1_nsg_name'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_Job1_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_Job1_name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_adVNET_name'), variables('subnets_adSubnet_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_Job1_nsg_name'))]",
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_Job1_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_adVNET_name'), parameters('subnets_adSubnet_name'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Job1_nsg_name'))]",
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_Job1_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/AppServer1-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_AppServer1_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_AppServer1_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3596,7 +3596,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/AppServer1nsg253'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_AppServer1nsg253_name')]",
+            "name": "[parameters('networkSecurityGroups_AppServer1nsg253_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3738,7 +3738,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATG-Accounting-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ATG_Accounting_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_ATG_Accounting_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -3880,7 +3880,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATGAccountingnsg212'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ATGAccountingnsg212_name')]",
+            "name": "[parameters('networkSecurityGroups_ATGAccountingnsg212_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4022,7 +4022,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATGAccountingnsg702'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ATGAccountingnsg702_name')]",
+            "name": "[parameters('networkSecurityGroups_ATGAccountingnsg702_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4164,7 +4164,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATGAccountingnsg776'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ATGAccountingnsg776_name')]",
+            "name": "[parameters('networkSecurityGroups_ATGAccountingnsg776_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4306,7 +4306,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentDB-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ContentDB_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_ContentDB_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4430,7 +4430,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentDBnsg250'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ContentDBnsg250_name')]",
+            "name": "[parameters('networkSecurityGroups_ContentDBnsg250_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4572,7 +4572,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentDBnsg675'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ContentDBnsg675_name')]",
+            "name": "[parameters('networkSecurityGroups_ContentDBnsg675_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4714,7 +4714,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentDBnsg743'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ContentDBnsg743_name')]",
+            "name": "[parameters('networkSecurityGroups_ContentDBnsg743_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4856,7 +4856,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentTools-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_ContentTools_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_ContentTools_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -4998,7 +4998,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB16-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB16_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_DB16_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -5140,7 +5140,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB16nsg318'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB16nsg318_name')]",
+            "name": "[parameters('networkSecurityGroups_DB16nsg318_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -5282,7 +5282,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB16nsg981'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB16nsg981_name')]",
+            "name": "[parameters('networkSecurityGroups_DB16nsg981_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -5424,7 +5424,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB4-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB4_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_DB4_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -5566,7 +5566,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB4nsg115'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB4nsg115_name')]",
+            "name": "[parameters('networkSecurityGroups_DB4nsg115_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -5708,7 +5708,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB4nsg298'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB4nsg298_name')]",
+            "name": "[parameters('networkSecurityGroups_DB4nsg298_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -5850,7 +5850,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB5-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB5_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_DB5_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -5992,7 +5992,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB5nsg123'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB5nsg123_name')]",
+            "name": "[parameters('networkSecurityGroups_DB5nsg123_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -6134,7 +6134,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB5nsg517'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB5nsg517_name')]",
+            "name": "[parameters('networkSecurityGroups_DB5nsg517_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -6276,7 +6276,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB6_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_DB6_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -6418,7 +6418,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB62-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB62_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_DB62_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -6560,7 +6560,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB62nsg662'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB62nsg662_name')]",
+            "name": "[parameters('networkSecurityGroups_DB62nsg662_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -6702,7 +6702,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB62nsg740'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB62nsg740_name')]",
+            "name": "[parameters('networkSecurityGroups_DB62nsg740_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -6844,7 +6844,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6nsg400'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB6nsg400_name')]",
+            "name": "[parameters('networkSecurityGroups_DB6nsg400_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -6986,7 +6986,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6nsg460'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB6nsg460_name')]",
+            "name": "[parameters('networkSecurityGroups_DB6nsg460_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -7128,7 +7128,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6nsg640'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_DB6nsg640_name')]",
+            "name": "[parameters('networkSecurityGroups_DB6nsg640_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -7270,7 +7270,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/Job1-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[variables('networkSecurityGroups_Job1_nsg_name')]",
+            "name": "[parameters('networkSecurityGroups_Job1_nsg_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -7412,7 +7412,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/publicIPAddresses/adPublicIP'.",
             "type": "Microsoft.Network/publicIPAddresses",
-            "name": "[variables('publicIPAddresses_adPublicIP_name')]",
+            "name": "[parameters('publicIPAddresses_adPublicIP_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -7433,7 +7433,7 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/virtualNetworks/adVNET'.",
             "type": "Microsoft.Network/virtualNetworks",
-            "name": "[variables('virtualNetworks_adVNET_name')]",
+            "name": "[parameters('virtualNetworks_adVNET_name')]",
             "apiVersion": "2017-06-01",
             "location": "westus",
             "scale": null,
@@ -7472,7 +7472,7 @@
                 "tier": "Standard"
             },
             "kind": "Storage",
-            "name": "[variables('storageAccounts_2vmzo4mqlfyhkadsa_name')]",
+            "name": "[parameters('storageAccounts_2vmzo4mqlfyhkadsa_name')]",
             "apiVersion": "2016-01-01",
             "location": "westus",
             "tags": {},
@@ -7488,7 +7488,7 @@
                 "tier": "Standard"
             },
             "kind": "Storage",
-            "name": "[variables('storageAccounts_atglowerrgdiag337_name')]",
+            "name": "[parameters('storageAccounts_atglowerrgdiag337_name')]",
             "apiVersion": "2016-01-01",
             "location": "westus",
             "tags": {},
@@ -7499,13 +7499,13 @@
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/AppServer1/extensions/IaaSAntimalware'.",
             "type": "Microsoft.Compute/virtualMachines/extensions",
-            "name": "[concat(variables('virtualMachines_AppServer1_name'), '/', variables('extensions_IaaSAntimalware_name_1'))]",
+            "name": "[concat(parameters('virtualMachines_AppServer1_name'), '/', parameters('extensions_IaaSAntimalware_name_1'))]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
             "properties": {
                 "publisher": "Microsoft.Azure.Security",
-                "type": "[variables('extensions_IaaSAntimalware_name_1')]",
+                "type": "[parameters('extensions_IaaSAntimalware_name_1')]",
                 "typeHandlerVersion": "1.3",
                 "autoUpgradeMinorVersion": true,
                 "settings": {
@@ -7525,19 +7525,19 @@
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_AppServer1_name'))]"
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_AppServer1_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Compute/virtualMachines/Job1/extensions/IaaSAntimalware'.",
             "type": "Microsoft.Compute/virtualMachines/extensions",
-            "name": "[concat(variables('virtualMachines_Job1_name'), '/', variables('extensions_IaaSAntimalware_name'))]",
+            "name": "[concat(parameters('virtualMachines_Job1_name'), '/', parameters('extensions_IaaSAntimalware_name'))]",
             "apiVersion": "2016-04-30-preview",
             "location": "westus",
             "scale": null,
             "properties": {
                 "publisher": "Microsoft.Azure.Security",
-                "type": "[variables('extensions_IaaSAntimalware_name')]",
+                "type": "[parameters('extensions_IaaSAntimalware_name')]",
                 "typeHandlerVersion": "1.3",
                 "autoUpgradeMinorVersion": true,
                 "settings": {
@@ -7557,13 +7557,13 @@
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Compute/virtualMachines', variables('virtualMachines_Job1_name'))]"
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_Job1_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/AppServer1-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_AppServer1_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_17'))]",
+            "name": "[concat(parameters('networkSecurityGroups_AppServer1_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_17'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7580,13 +7580,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_AppServer1_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/AppServer1nsg253/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_AppServer1nsg253_name'), '/', variables('securityRules_default_allow_rdp_name_22'))]",
+            "name": "[concat(parameters('networkSecurityGroups_AppServer1nsg253_name'), '/', parameters('securityRules_default_allow_rdp_name_22'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7603,13 +7603,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_AppServer1nsg253_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_AppServer1nsg253_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATG-Accounting-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ATG_Accounting_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_24'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ATG_Accounting_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_24'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7626,13 +7626,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATG_Accounting_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATG_Accounting_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATGAccountingnsg212/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ATGAccountingnsg212_name'), '/', variables('securityRules_default_allow_rdp_name_25'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ATGAccountingnsg212_name'), '/', parameters('securityRules_default_allow_rdp_name_25'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7649,13 +7649,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg212_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg212_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATGAccountingnsg702/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ATGAccountingnsg702_name'), '/', variables('securityRules_default_allow_rdp_name_26'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ATGAccountingnsg702_name'), '/', parameters('securityRules_default_allow_rdp_name_26'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7672,13 +7672,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg702_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg702_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ATGAccountingnsg776/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ATGAccountingnsg776_name'), '/', variables('securityRules_default_allow_rdp_name_27'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ATGAccountingnsg776_name'), '/', parameters('securityRules_default_allow_rdp_name_27'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7695,13 +7695,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ATGAccountingnsg776_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ATGAccountingnsg776_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentDBnsg250/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ContentDBnsg250_name'), '/', variables('securityRules_default_allow_rdp_name_18'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ContentDBnsg250_name'), '/', parameters('securityRules_default_allow_rdp_name_18'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7718,13 +7718,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg250_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg250_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentDBnsg675/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ContentDBnsg675_name'), '/', variables('securityRules_default_allow_rdp_name_19'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ContentDBnsg675_name'), '/', parameters('securityRules_default_allow_rdp_name_19'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7741,13 +7741,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg675_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg675_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentDBnsg743/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ContentDBnsg743_name'), '/', variables('securityRules_default_allow_rdp_name_20'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ContentDBnsg743_name'), '/', parameters('securityRules_default_allow_rdp_name_20'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7764,13 +7764,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentDBnsg743_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentDBnsg743_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/ContentTools-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_ContentTools_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_23'))]",
+            "name": "[concat(parameters('networkSecurityGroups_ContentTools_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_23'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7787,13 +7787,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_ContentTools_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_ContentTools_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB16-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB16_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_3'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB16_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_3'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7810,13 +7810,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB16nsg318/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB16nsg318_name'), '/', variables('securityRules_default_allow_rdp_name_13'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB16nsg318_name'), '/', parameters('securityRules_default_allow_rdp_name_13'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7833,13 +7833,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16nsg318_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg318_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB16nsg981/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB16nsg981_name'), '/', variables('securityRules_default_allow_rdp_name_14'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB16nsg981_name'), '/', parameters('securityRules_default_allow_rdp_name_14'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7856,13 +7856,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB16nsg981_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB16nsg981_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB4-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB4_nsg_name'), '/', variables('securityRules_default_allow_rdp_name'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB4_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7879,13 +7879,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB4nsg115/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB4nsg115_name'), '/', variables('securityRules_default_allow_rdp_name_6'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB4nsg115_name'), '/', parameters('securityRules_default_allow_rdp_name_6'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7902,13 +7902,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4nsg115_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg115_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB4nsg298/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB4nsg298_name'), '/', variables('securityRules_default_allow_rdp_name_7'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB4nsg298_name'), '/', parameters('securityRules_default_allow_rdp_name_7'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7925,13 +7925,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB4nsg298_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB4nsg298_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB5-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB5_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_1'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB5_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_1'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7948,13 +7948,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB5nsg123/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB5nsg123_name'), '/', variables('securityRules_default_allow_rdp_name_8'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB5nsg123_name'), '/', parameters('securityRules_default_allow_rdp_name_8'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7971,13 +7971,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5nsg123_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg123_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB5nsg517/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB5nsg517_name'), '/', variables('securityRules_default_allow_rdp_name_9'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB5nsg517_name'), '/', parameters('securityRules_default_allow_rdp_name_9'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -7994,13 +7994,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB5nsg517_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB5nsg517_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB6_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_2'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB6_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_2'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8017,13 +8017,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB62-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB62_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_4'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB62_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_4'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8040,13 +8040,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB62nsg662/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB62nsg662_name'), '/', variables('securityRules_default_allow_rdp_name_15'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB62nsg662_name'), '/', parameters('securityRules_default_allow_rdp_name_15'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8063,13 +8063,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62nsg662_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg662_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB62nsg740/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB62nsg740_name'), '/', variables('securityRules_default_allow_rdp_name_16'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB62nsg740_name'), '/', parameters('securityRules_default_allow_rdp_name_16'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8086,13 +8086,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB62nsg740_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB62nsg740_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6nsg400/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB6nsg400_name'), '/', variables('securityRules_default_allow_rdp_name_10'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB6nsg400_name'), '/', parameters('securityRules_default_allow_rdp_name_10'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8109,13 +8109,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg400_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg400_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6nsg460/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB6nsg460_name'), '/', variables('securityRules_default_allow_rdp_name_11'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB6nsg460_name'), '/', parameters('securityRules_default_allow_rdp_name_11'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8132,13 +8132,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg460_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg460_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/DB6nsg640/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_DB6nsg640_name'), '/', variables('securityRules_default_allow_rdp_name_12'))]",
+            "name": "[concat(parameters('networkSecurityGroups_DB6nsg640_name'), '/', parameters('securityRules_default_allow_rdp_name_12'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8155,13 +8155,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_DB6nsg640_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_DB6nsg640_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/networkSecurityGroups/Job1-nsg/securityRules/default-allow-rdp'.",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(variables('networkSecurityGroups_Job1_nsg_name'), '/', variables('securityRules_default_allow_rdp_name_5'))]",
+            "name": "[concat(parameters('networkSecurityGroups_Job1_nsg_name'), '/', parameters('securityRules_default_allow_rdp_name_5'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8178,13 +8178,13 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_Job1_nsg_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Job1_nsg_name'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/7830f6c5-49db-44a6-8be5-44054825f6d0/resourceGroups/AtgLower-rg/providers/Microsoft.Network/virtualNetworks/adVNET/subnets/adSubnet'.",
             "type": "Microsoft.Network/virtualNetworks/subnets",
-            "name": "[concat(variables('virtualNetworks_adVNET_name'), '/', variables('subnets_adSubnet_name'))]",
+            "name": "[concat(parameters('virtualNetworks_adVNET_name'), '/', parameters('subnets_adSubnet_name'))]",
             "apiVersion": "2017-06-01",
             "scale": null,
             "properties": {
@@ -8192,7 +8192,7 @@
                 "addressPrefix": "10.0.0.0/24"
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworks_adVNET_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworks_adVNET_name'))]"
             ]
         },
         {
@@ -8202,11 +8202,11 @@
             "properties": {
               "mode": "Incremental",
               "templateLink": {
-                "uri": "[variables('ADandJumpTemplate')]",
+                "uri": "[parameters('ADandJumpTemplate')]",
                 "contentVersion": "1.0.0.0"
               },
               "parametersLink": {
-                "uri": "[variables('ADandJumpParams)]",
+                "uri": "[parameters('ADandJumpParams)]",
                 "contentVersion": "1.0.0.0"
               }
             }
