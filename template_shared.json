@@ -4,47 +4,47 @@
     "parameters": {
         "virtualMachines_JumpServer1_name": {
             "defaultValue": "JumpServer1",
-            "type": "String"
+            "type": "string"
         },
         "networkInterfaces_jumpserver1554_name": {
             "defaultValue": "jumpserver1554",
-            "type": "String"
+            "type": "string"
         },
         "publicIPAddresses_JumpServer1_ip_name": {
             "defaultValue": "JumpServer1-ip",
-            "type": "String"
+            "type": "string"
         },
         "networkSecurityGroups_JumpServer1_nsg_name": {
             "defaultValue": "JumpServer1-nsg",
-            "type": "String"
+            "type": "string"
         },
         "disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name": {
             "defaultValue": "JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714",
-            "type": "String"
+            "type": "string"
         },
         "virtualMachines_adVM_name": {
             "defaultValue": "adVM",
-            "type": "String"
+            "type": "string"
         },
         "networkInterfaces_adNic_name": {
             "defaultValue": "adNic",
-            "type": "String"
+            "type": "string"
         },
         "loadBalancers_adLoadBalancer_name": {
             "defaultValue": "adLoadBalancer",
-            "type": "String"
+            "type": "string"
         },
         "publicIPAddresses_adPublicIP_name": {
             "defaultValue": "adPublicIP",
-            "type": "String"
+            "type": "string"
         },
         "availabilitySets_adAvailabiltySet_name": {
             "defaultValue": "adAvailabiltySet",
-            "type": "String"
+            "type": "string"
         },
         "extensions_CreateADForest_name": {
             "defaultValue": "CreateADForest",
-            "type": "String"
+            "type": "string"
         }
     },
     "variables": {},
